@@ -1,0 +1,29 @@
+doctype html
+html(lang='ru')
+	head
+		meta(charset='utf-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1')
+		link(rel="shortcut icon" href="img/favicon.png" type="image/png")  
+		link(rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16")
+		link(rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32")
+		link(rel="icon" type="image/png" href="img/favicon-96x96.png" sizes="96x96")
+		title Белорусская АЭС | Обозначения сигналов
+		link(rel='stylesheet', href='../styles/style.css')
+	body
+		.conteiner
+			include ../blocks/block-header/header.pug
+
+			// title page
+			h1.title-page
+				|	Обозначения состояний сигналов, событий
+
+			img.about__bg(src="../img/about.png" alt="")
+
+			a.btn-grey.btn-grey-big.w-120.center(href="/" title="")
+				|	Вернуться
+
+	include ../blocks/block-navigation/navigation.pug
+	include ../blocks/block-scripts/scripts.pug
+       
+
+

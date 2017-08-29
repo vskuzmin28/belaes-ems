@@ -1,0 +1,36 @@
+doctype html
+html(lang='ru')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel="shortcut icon" href="img/favicon.png" type="image/png")  
+    link(rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16")
+    link(rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32")
+    link(rel="icon" type="image/png" href="img/favicon-96x96.png" sizes="96x96")
+    title Белорусская АЭС | Экран состояний для шкафа локального управления транспортным шлюзом
+    link(rel='stylesheet', href='../styles/style.css')
+  body
+
+    // conteiner
+    .conteiner
+
+      // column left
+      .column__left
+        include ../blocks/block-header/header.pug
+        include ../blocks/block-current-operation/current-operation.pug
+        include ../blocks/block-gateway/gateway.pug
+        include ../blocks/block-title-zones/title-zones.pug
+        include ../blocks/block-mini-journal/mini-journal.pug
+        include ../blocks/block-indication-plc/indication-plc.pug
+
+
+      // /column right
+      .column__right
+        include ../blocks/block-indications/indications.pug
+        include ../blocks/block-analogs/analogs.pug
+        include ../blocks/block-cabinets/cabinets.pug
+        include ../blocks/block-indications-last/indications-last.pug
+
+  include ../blocks/block-navigation/navigation.pug
+  include ../blocks/block-scripts/scripts.pug
+

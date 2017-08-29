@@ -1,0 +1,131 @@
+// tabs
+
+.tabs {
+	height: auto;
+}
+
+.tabs__head {
+	margin-top: 0px;
+	position: relative;
+	height: 30px;
+	border-bottom: 1px solid @blue-light;
+	z-index: 1;
+}
+
+.tabs__head__main {
+	margin-top: 1px;
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	//background: #f00;
+}
+
+.tab {
+	float: left;
+	display: block;
+	padding: 0 20px;
+	height: 29px;
+	font: 14px @pt-bold;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: @white;
+	background: @blue-dark;
+}
+
+.tab__active {
+	line-height: 29px;
+	border-radius: 6px 6px 0 0;
+	border-top: 1px solid @blue-light;
+	border-right: 1px solid @blue-light;
+	border-left: 1px solid @blue-light;
+}
+
+// sub tabs
+
+.subtabs__head__main {
+	margin-top: 7px;
+	position: absolute;
+	width: 30%;
+	right: 0;
+	height: 22px;
+}
+
+.subtab {
+	float: right;
+	display: block;
+	padding: 0 16px;
+	font: 14px @pt-regular;
+	line-height: 22px;
+	color: @white;
+}
+
+.subtab__active {
+	border-radius: 4px 4px 0 0;
+	border-top: 1px solid @blue-light;
+	border-right: 1px solid @blue-light;
+	border-left: 1px solid @blue-light;
+	background: @blue-light;
+}
+
+.subtabs__content {
+	padding: 0 10px;
+	margin-top: 10px;
+	color: @white;
+}
+
+// debug columns
+
+.column {
+	width: 300px;
+	float: left;
+	height: auto;
+	overflow: hidden;
+	display: block;
+	margin-bottom: 6px;
+}
+
+.column__title-block {
+	width: 100%;
+	margin-bottom: 12px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid @blue-light;
+	font: 16px @pt-bold;
+	color: @white;
+}
+
+.column__field {
+	margin-bottom: 4px; 
+	height: 14px;
+
+	p {
+		float: left;
+		font: 14px @pt-regular;
+		line-height: 14px;
+		color: @white;
+	}
+
+}
+
+input.checkbox {
+	display: none;
+}
+
+label.checkbox-label {
+	display:block;
+	width: 13px;
+	height: 13px;
+	background: @blue-dark;
+	border: 1px solid @blue-light;
+	border-radius: 2px;
+	-webkit-font-smoothing: antialiased;
+}
+
+input:checked.checkbox + label.checkbox-label:before {
+	margin: 3px;
+	position: absolute;
+	width: 7px;
+	height: 7px;
+	background: @white;
+	content: "";
+	border-radius: 3px;
+}

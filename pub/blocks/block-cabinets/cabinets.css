@@ -1,0 +1,15 @@
+@media only screen and (min-width: 1024px) {
+  .block__cabintes table tr:nth-child(1) td {
+    width: 90px;
+    text-align: center !important;
+    line-height: 12px;
+    height: 16px;
+  }
+  .block__cabintes table tr:nth-child(2) td {
+    padding-top: 10px;
+    width: 90px;
+    text-align: left !important;
+    vertical-align: middle;
+    height: 20px;
+  }
+}

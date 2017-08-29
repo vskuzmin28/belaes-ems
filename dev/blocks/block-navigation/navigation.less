@@ -1,0 +1,39 @@
+.navigation {
+	border-radius: 30%;
+	display: none;
+	position: absolute;
+	width: 300px;
+	height: 320px;
+	background: #1f253d url('../img/logo.png') no-repeat bottom center;
+	text-align: center;
+	color: #fff;
+
+	h2 {
+		margin-bottom: 30px;
+		font: 20px @pt-bold;
+		text-transform: uppercase;
+	}
+
+	ul {
+		li {
+			a, a:hover {
+				display: block;
+				font: 18px @pt-regular;
+				line-height: 44px;
+				color: #fff;
+				text-decoration: none;
+			}
+		}
+	}
+
+}
+
+.navigation__close {
+	top: -200px;
+	right: -340px;
+	position: absolute;
+	display: block;
+	width: 25px;
+	height: 25px;
+	background: url('../img/close.png') no-repeat;
+}

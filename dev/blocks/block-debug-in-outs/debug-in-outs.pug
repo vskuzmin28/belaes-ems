@@ -1,0 +1,2690 @@
+
+// title page
+h1.title-page
+  | Отладка входов/выходов
+
+// tabs
+.tabs
+  .tabs__head
+
+    // tabs
+    .tabs__head__main
+      .tab.tab__one.tab__active
+        | Шкаф 1
+      .tab.tab__two
+        | Шкаф 2
+      .tab.tab__three
+        | Шкаф 4
+
+    // subtabs
+    .subtabs__head__main
+      .subtab.subtab__two
+        | выходные
+      .subtab.subtab__one.subtab__active
+        | входные
+
+  // tab content 1
+  .tabs__content.tabs__content__one
+
+    // subtab content for IN
+    .subtabs__content.subtabs__content__in
+      
+      // column КВ Рамы
+      .column.mr-40
+        .column__title-block
+          | КВ рамы
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_1SQ1" id="real_di_1SQ1")
+          label.checkbox-label.left.mr-8(for="real_di_1SQ1")
+          input.checkbox(type="checkbox" name="di_1SQ1" id="di_1SQ1")
+          label.checkbox-label.left.mr-8(for="di_1SQ1")
+          p
+            | Рама против проема  ворот ГЗ
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_1SQ2" id="real_di_1SQ2")
+          label.checkbox-label.left.mr-8(for="real_di_1SQ2")
+          input.checkbox(type="checkbox" name="di_1SQ2" id="di_1SQ2")
+          label.checkbox-label.left.mr-8(for="di_1SQ2")
+          p
+            | Полотно ворот подв. к шпилькам 1
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_1SQ3" id="real_di_1SQ3")
+          label.checkbox-label.left.mr-8(for="real_di_1SQ3")
+          input.checkbox(type="checkbox" name="di_1SQ3" id="di_1SQ3")
+          label.checkbox-label.left.mr-8(for="di_1SQ3")
+          p
+            | Полотно ворот подв. к шпилькам 2
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_1SQ4" id="real_di_1SQ4")
+          label.checkbox-label.left.mr-8(for="real_di_1SQ4")
+          input.checkbox(type="checkbox" name="di_1SQ4" id="di_1SQ4")
+          label.checkbox-label.left.mr-8(for="di_1SQ4")
+          p
+            | Полотно ворот подв. к шпилькам 3
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_1SQ6" id="real_di_1SQ6")
+          label.checkbox-label.left.mr-8(for="real_di_1SQ6")
+          input.checkbox(type="checkbox" name="di_1SQ6" id="di_1SQ6")
+          label.checkbox-label.left.mr-8(for="di_1SQ6")
+          p
+            | Ворота ГЗ откр. (рама отв. в сторону)
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_1SQ9" id="real_di_1SQ9")
+          label.checkbox-label.left.mr-8(for="real_di_1SQ9")
+          input.checkbox(type="checkbox" name="di_1SQ9" id="di_1SQ9")
+          label.checkbox-label.left.mr-8(for="di_1SQ9")
+          p
+            | Ролики введены в колпаки 1
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_1SQ10" id="real_di_1SQ10")
+          label.checkbox-label.left.mr-8(for="real_di_1SQ10")
+          input.checkbox(type="checkbox" name="di_1SQ10" id="di_1SQ10")
+          label.checkbox-label.left.mr-8(for="di_1SQ10")
+          p
+            | Ролики введены в колпаки 2
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_1SQ11" id="real_di_1SQ11")
+          label.checkbox-label.left.mr-8(for="real_di_1SQ11")
+          input.checkbox(type="checkbox" name="di_1SQ11" id="di_1SQ11")
+          label.checkbox-label.left.mr-8(for="di_1SQ11")
+          p
+            | Ролики введены в колпаки 3            
+
+      // / column КВ Рамы
+
+      // column Входные сигналы ПТС
+      .column.mr-40
+        .column__title-block
+          | Входные сигналы ПТС
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_in_GATE_mode_2" id="real_in_GATE_mode_2")
+          label.checkbox-label.left.mr-8(for="real_in_GATE_mode_2")
+          input.checkbox(type="checkbox" name="in_GATE_mode_2" id="in_GATE_mode_2")
+          label.checkbox-label.left.mr-8(for="in_GATE_mode_2")
+          p
+            | Пркл. "Реж. работы шлюза 2"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_in_GATE_mode_3" id="real_in_GATE_mode_3")
+          label.checkbox-label.left.mr-8(for="real_in_GATE_mode_3")
+          input.checkbox(type="checkbox" name="in_GATE_mode_3" id="in_GATE_mode_3")
+          label.checkbox-label.left.mr-8(for="in_GATE_mode_3")
+          p
+            | Пркл. "Реж. работы шлюза 3"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_in_mode_automatik" id="real_in_mode_automatik")
+          label.checkbox-label.left.mr-8(for="real_in_mode_automatik")
+          input.checkbox(type="checkbox" name="in_mode_automatik" id="in_mode_automatik")
+          label.checkbox-label.left.mr-8(for="in_mode_automatik")
+          p
+            | Пркл. "Реж. работы СУ - Автоматический"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_in_mode_diagnostik" id="real_in_mode_diagnostik")
+          label.checkbox-label.left.mr-8(for="real_in_mode_diagnostik")
+          input.checkbox(type="checkbox" name="in_mode_diagnostik" id="in_mode_diagnostik")
+          label.checkbox-label.left.mr-8(for="in_mode_diagnostik")
+          p
+            | Пркл. "Реж. работы СУ - Диагностика"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_in_mode_adjustment" id="real_in_mode_adjustment")
+          label.checkbox-label.left.mr-8(for="real_in_mode_adjustment")
+          input.checkbox(type="checkbox" name="in_mode_adjustment" id="in_mode_adjustment")
+          label.checkbox-label.left.mr-8(for="in_mode_adjustment")
+          p
+            | Пркл. "Реж. работы СУ - Отладка"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_ErrorPower" id="real_ErrorPower")
+          label.checkbox-label.left.mr-8(for="real_ErrorPower")
+          input.checkbox(type="checkbox" name="ErrorPower" id="ErrorPower")
+          label.checkbox-label.left.mr-8(for="ErrorPower")
+          p
+            | Авария питания
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_1SQ10" id="real_di_1SQ10")
+          label.checkbox-label.left.mr-8(for="real_di_1SQ10")
+          input.checkbox(type="checkbox" name="di_1SQ10" id="di_1SQ10")
+          label.checkbox-label.left.mr-8(for="di_1SQ10")
+          p
+            | Ролики введены в колпаки 2
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_1SQ11" id="real_di_1SQ11")
+          label.checkbox-label.left.mr-8(for="real_di_1SQ11")
+          input.checkbox(type="checkbox" name="di_1SQ11" id="di_1SQ11")
+          label.checkbox-label.left.mr-8(for="di_1SQ11")
+          p
+            | Ролики введены в колпаки 3            
+
+      // / column Входные сигналы ПТС
+
+      // column ПУ 1
+      .column
+        .column__title-block
+          | ПУ 1
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_1SB1" id="real_di_1SB1")
+          label.checkbox-label.left.mr-8(for="real_di_1SB1")
+          input.checkbox(type="checkbox" name="di_1SB1" id="di_1SB1")
+          label.checkbox-label.left.mr-8(for="di_1SB1")
+          p
+            | Кнопка "Ворота ГЗ открыть"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_1SB2" id="real_di_1SB2")
+          label.checkbox-label.left.mr-8(for="real_di_1SB2")
+          input.checkbox(type="checkbox" name="di_1SB2" id="di_1SB2")
+          label.checkbox-label.left.mr-8(for="di_1SB2")
+          p
+            | Кнопка "Стоп"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_1SB3" id="real_di_1SB3")
+          label.checkbox-label.left.mr-8(for="real_di_1SB3")
+          input.checkbox(type="checkbox" name="di_1SB3" id="di_1SB3")
+          label.checkbox-label.left.mr-8(for="di_1SB3")
+          p
+            | Кнопка "Ворота ГЗ закрыть"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_1SB4" id="real_di_1SB4")
+          label.checkbox-label.left.mr-8(for="real_di_1SB4")
+          input.checkbox(type="checkbox" name="di_1SB4" id="di_1SB4")
+          label.checkbox-label.left.mr-8(for="di_1SB4")
+          p
+            | Кнопка "Мост ГЗ поднять"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_1SB5" id="real_di_1SB5")
+          label.checkbox-label.left.mr-8(for="real_di_1SB5")
+          input.checkbox(type="checkbox" name="di_1SB5" id="di_1SB5")
+          label.checkbox-label.left.mr-8(for="di_1SB5")
+          p
+            | Кнопка "Стоп"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_1SB6" id="real_di_1SB6")
+          label.checkbox-label.left.mr-8(for="real_di_1SB6")
+          input.checkbox(type="checkbox" name="di_1SB6" id="di_1SB6")
+          label.checkbox-label.left.mr-8(for="di_1SB6")
+          p
+            | Кнопка "Мост ГЗ опустить"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_1SB7" id="real_di_1SB7")
+          label.checkbox-label.left.mr-8(for="real_di_1SB7")
+          input.checkbox(type="checkbox" name="di_1SB7" id="di_1SB7")
+          label.checkbox-label.left.mr-8(for="di_1SB7")
+          p
+            | Кнопка "Прзд. через ворот. разрешен"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_1SB8" id="real_di_1SB8")
+          label.checkbox-label.left.mr-8(for="real_di_1SB8")
+          input.checkbox(type="checkbox" name="di_1SB8" id="di_1SB8")
+          label.checkbox-label.left.mr-8(for="di_1SB8")
+          p
+            | Кнопка "Тест ламп"         
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_1SBA1" id="real_di_1SBA1")
+          label.checkbox-label.left.mr-8(for="real_di_1SBA1")
+          input.checkbox(type="checkbox" name="di_1SBA1" id="di_1SBA1")
+          label.checkbox-label.left.mr-8(for="di_1SBA1")
+          p
+            | Кнопка "Аварийный стоп"
+
+      // / column ПУ 1
+
+      // column МВ и КВ ППП
+      .column.mr-40
+        .column__title-block
+          | МВ и КВ ППП
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2A1_FC" id="real_di_2A1_FC")
+          label.checkbox-label.left.mr-8(for="real_di_2A1_FC")
+          input.checkbox(type="checkbox" name="di_2A1_FC" id="di_2A1_FC")
+          label.checkbox-label.left.mr-8(for="di_2A1_FC")
+          p
+            | Прив.2А1(ППП1) момнт. к торцу
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2A1_FT" id="real_di_2A1_FT")
+          label.checkbox-label.left.mr-8(for="real_di_2A1_FT")
+          input.checkbox(type="checkbox" name="di_2A1_FT" id="di_2A1_FT")
+          label.checkbox-label.left.mr-8(for="di_2A1_FT")
+          p
+            | Прив.2А1 момнт. от торца
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2A1_T" id="real_di_2A1_T")
+          label.checkbox-label.left.mr-8(for="real_di_2A1_T")
+          input.checkbox(type="checkbox" name="di_2A1_T" id="di_2A1_T")
+          label.checkbox-label.left.mr-8(for="di_2A1_T")
+          p
+            | Прив.2А1 полотно отведено на раму
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2A2_FC" id="real_di_2A2_FC")
+          label.checkbox-label.left.mr-8(for="real_di_2A2_FC")
+          input.checkbox(type="checkbox" name="di_2A2_FC" id="di_2A2_FC")
+          label.checkbox-label.left.mr-8(for="di_2A2_FC")
+          p
+            | Прив.2А2(ППП2) момнт. к торцу
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2A2_FT" id="real_di_2A2_FT")
+          label.checkbox-label.left.mr-8(for="real_di_2A2_FT")
+          input.checkbox(type="checkbox" name="di_2A2_FT" id="di_2A2_FT")
+          label.checkbox-label.left.mr-8(for="di_2A2_FT")
+          p
+            | Прив.2А2 момнт. от торца
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2A2_T" id="real_di_2A2_T")
+          label.checkbox-label.left.mr-8(for="real_di_2A2_T")
+          input.checkbox(type="checkbox" name="di_2A2_T" id="di_2A2_T")
+          label.checkbox-label.left.mr-8(for="di_2A2_T")
+          p
+            | Прив.2А2 полотно отведено на раму
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2A3_FC" id="real_di_2A3_FC")
+          label.checkbox-label.left.mr-8(for="real_di_2A3_FC")
+          input.checkbox(type="checkbox" name="di_2A3_FC" id="di_2A3_FC")
+          label.checkbox-label.left.mr-8(for="di_2A3_FC")
+          p
+            | Прив.2А3(ППП3) момнт. к торцу
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2A3_FT" id="real_di_2A3_FT")
+          label.checkbox-label.left.mr-8(for="real_di_2A3_FT")
+          input.checkbox(type="checkbox" name="di_2A3_FT" id="di_2A3_FT")
+          label.checkbox-label.left.mr-8(for="di_2A3_FT")
+          p
+            | Прив.2А3 момнт. от торца           
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2A3_T" id="real_di_2A3_T")
+          label.checkbox-label.left.mr-8(for="real_di_2A3_T")
+          input.checkbox(type="checkbox" name="di_2A3_T" id="di_2A3_T")
+          label.checkbox-label.left.mr-8(for="di_2A3_T")
+          p
+            | Прив.2А3 полотно отведено на раму
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2A1_C" id="real_di_2A1_C")
+          label.checkbox-label.left.mr-8(for="real_di_2A1_C")
+          input.checkbox(type="checkbox" name="di_2A1_C" id="di_2A1_C")
+          label.checkbox-label.left.mr-8(for="di_2A1_C")
+          p
+            | Прив.2А1 штоки в зоне герметизации
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2A2_C" id="real_di_2A2_C")
+          label.checkbox-label.left.mr-8(for="real_di_2A2_C")
+          input.checkbox(type="checkbox" name="di_2A2_C" id="di_2A2_C")
+          label.checkbox-label.left.mr-8(for="di_2A2_C")
+          p
+            | Прив.2А2 штоки в зоне герметизации
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2A3_C" id="real_di_2A3_C")
+          label.checkbox-label.left.mr-8(for="real_di_2A3_C")
+          input.checkbox(type="checkbox" name="di_2A3_C" id="di_2A3_C")
+          label.checkbox-label.left.mr-8(for="di_2A3_C")
+          p
+            | Прив.2А3 штоки в зоне герметизации               
+
+      // / column МВ и КВ ППП
+
+      // column МВ ПГ
+      .column.mr-40
+        .column__title-block
+          | МВ ПГ
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_3A1_FC" id="real_di_3A1_FC")
+          label.checkbox-label.left.mr-8(for="real_di_3A1_FC")
+          input.checkbox(type="checkbox" name="di_3A1_FC" id="di_3A1_FC")
+          label.checkbox-label.left.mr-8(for="di_3A1_FC")
+          p
+            | Прив.3А1(ПГ1) момнт. разгерметизация
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_3A1_FT" id="real_di_3A1_FT")
+          label.checkbox-label.left.mr-8(for="real_di_3A1_FT")
+          input.checkbox(type="checkbox" name="di_3A1_FT" id="di_3A1_FT")
+          label.checkbox-label.left.mr-8(for="di_3A1_FT")
+          p
+            | Прив.3А1 момнт. герметизация
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_3A2_FC" id="real_di_3A2_FC")
+          label.checkbox-label.left.mr-8(for="real_di_3A2_FC")
+          input.checkbox(type="checkbox" name="di_3A2_FC" id="di_3A2_FC")
+          label.checkbox-label.left.mr-8(for="di_3A2_FC")
+          p
+            | Прив.3А2(ПГ2) момнт. разгерметизация
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_3A2_FT" id="real_di_3A2_FT")
+          label.checkbox-label.left.mr-8(for="real_di_3A2_FT")
+          input.checkbox(type="checkbox" name="di_3A2_FT" id="di_3A2_FT")
+          label.checkbox-label.left.mr-8(for="di_3A2_FT")
+          p
+            | Прив.3А2 момнт. герметизация
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_3A3_FC" id="real_di_3A3_FC")
+          label.checkbox-label.left.mr-8(for="real_di_3A3_FC")
+          input.checkbox(type="checkbox" name="di_3A3_FC" id="di_3A3_FC")
+          label.checkbox-label.left.mr-8(for="di_3A3_FC")
+          p
+            | Прив.3А3(ПГ3) момнт. разгерметизация
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_3A3_FT" id="real_di_3A3_FT")
+          label.checkbox-label.left.mr-8(for="real_di_3A3_FT")
+          input.checkbox(type="checkbox" name="di_3A3_FT" id="di_3A3_FT")
+          label.checkbox-label.left.mr-8(for="di_3A3_FT")
+          p
+            | Прив.3А3 момнт. герметизация
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_3A4_FC" id="real_di_3A4_FC")
+          label.checkbox-label.left.mr-8(for="real_di_3A4_FC")
+          input.checkbox(type="checkbox" name="di_3A4_FC" id="di_3A4_FC")
+          label.checkbox-label.left.mr-8(for="di_3A4_FC")
+          p
+            | Прив.3А4(ПГ4) момнт. разгерметизация
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_3A4_FT" id="real_di_3A4_FT")
+          label.checkbox-label.left.mr-8(for="real_di_3A4_FT")
+          input.checkbox(type="checkbox" name="di_3A4_FT" id="di_3A4_FT")
+          label.checkbox-label.left.mr-8(for="di_3A4_FT")
+          p
+            | Прив.3А4 момнт. герметизация         
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_3A5_FC" id="real_di_3A5_FC")
+          label.checkbox-label.left.mr-8(for="real_di_3A5_FC")
+          input.checkbox(type="checkbox" name="di_3A5_FC" id="di_3A5_FC")
+          label.checkbox-label.left.mr-8(for="di_3A5_FC")
+          p
+            | Прив.3А5(ПГ5) момнт. разгерметизация
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_3A5_FT" id="real_di_3A5_FT")
+          label.checkbox-label.left.mr-8(for="real_di_3A5_FT")
+          input.checkbox(type="checkbox" name="di_3A5_FT" id="di_3A5_FT")
+          label.checkbox-label.left.mr-8(for="di_3A5_FT")
+          p
+            | Прив.3А5 момнт. герметизация
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_3A6_FC" id="real_di_3A6_FC")
+          label.checkbox-label.left.mr-8(for="real_di_3A6_FC")
+          input.checkbox(type="checkbox" name="di_3A6_FC" id="di_3A6_FC")
+          label.checkbox-label.left.mr-8(for="di_3A6_FC")
+          p
+            | Прив.3А6(ПГ6) момнт. разгерметизация
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_3A6_FT" id="real_di_3A6_FT")
+          label.checkbox-label.left.mr-8(for="real_di_3A6_FT")
+          input.checkbox(type="checkbox" name="di_3A6_FT" id="di_3A6_FT")
+          label.checkbox-label.left.mr-8(for="di_3A6_FT")
+          p
+            | Прив.3А6 момнт. герметизация            
+
+      // / column МВ ПГ
+
+      // column ПУ 2
+      .column
+        .column__title-block
+          | ПУ 2
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_1SB9" id="real_di_1SB9")
+          label.checkbox-label.left.mr-8(for="real_di_1SB9")
+          input.checkbox(type="checkbox" name="di_1SB9" id="di_1SB9")
+          label.checkbox-label.left.mr-8(for="di_1SB9")
+          p
+            | Кнопка "Ворота ГЗ открыть"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_1SB10" id="real_di_1SB10")
+          label.checkbox-label.left.mr-8(for="real_di_1SB10")
+          input.checkbox(type="checkbox" name="di_1SB10" id="di_1SB10")
+          label.checkbox-label.left.mr-8(for="di_1SB10")
+          p
+            | Кнопка "Стоп"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_1SB11" id="real_di_1SB11")
+          label.checkbox-label.left.mr-8(for="real_di_1SB11")
+          input.checkbox(type="checkbox" name="di_1SB11" id="di_1SB11")
+          label.checkbox-label.left.mr-8(for="di_1SB11")
+          p
+            | Кнопка "Ворота ГЗ закрыть"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_1SB12" id="real_di_1SB12")
+          label.checkbox-label.left.mr-8(for="real_di_1SB12")
+          input.checkbox(type="checkbox" name="di_1SB12" id="di_1SB12")
+          label.checkbox-label.left.mr-8(for="di_1SB12")
+          p
+            | Кнопка "Мост ГЗ поднять"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_1SB13" id="real_di_1SB13")
+          label.checkbox-label.left.mr-8(for="real_di_1SB13")
+          input.checkbox(type="checkbox" name="di_1SB13" id="di_1SB13")
+          label.checkbox-label.left.mr-8(for="di_1SB13")
+          p
+            | Кнопка "Стоп"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_1SB14" id="real_di_1SB14")
+          label.checkbox-label.left.mr-8(for="real_di_1SB14")
+          input.checkbox(type="checkbox" name="di_1SB14" id="di_1SB14")
+          label.checkbox-label.left.mr-8(for="di_1SB14")
+          p
+            | Кнопка "Мост ГЗ опустить"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_1SB15" id="real_di_1SB15")
+          label.checkbox-label.left.mr-8(for="real_di_1SB15")
+          input.checkbox(type="checkbox" name="di_1SB15" id="di_1SB15")
+          label.checkbox-label.left.mr-8(for="di_1SB15")
+          p
+            | Кнопка "Прзд. через ворот. разрешен"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_1SB16" id="real_di_1SB16")
+          label.checkbox-label.left.mr-8(for="real_di_1SB16")
+          input.checkbox(type="checkbox" name="di_1SB16" id="di_1SB16")
+          label.checkbox-label.left.mr-8(for="di_1SB16")
+          p
+            | Кнопка "Тест ламп"         
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_1SBA2" id="real_di_1SBA2")
+          label.checkbox-label.left.mr-8(for="real_di_1SBA2")
+          input.checkbox(type="checkbox" name="di_1SBA2" id="di_1SBA2")
+          label.checkbox-label.left.mr-8(for="di_1SBA2")
+          p
+            | Кнопка "Аварийный стоп"
+
+      // / column ПУ 2
+
+      // column КВ роликов
+
+      .column.full-width.no-left
+        .column__title-block
+          | КВ роликов
+
+        // subcolumn
+        .column.mr-40
+
+          // field
+          .column__field
+            input.checkbox(type="checkbox" name="real_di_4A1_S1" id="real_di_4A1_S1")
+            label.checkbox-label.left.mr-8(for="real_di_4A1_S1")
+            input.checkbox(type="checkbox" name="di_4A1_S1" id="di_4A1_S1")
+            label.checkbox-label.left.mr-8(for="di_4A1_S1")
+            p
+              | Прив. 4А1(ППов.Р1)ролики зацеплены           
+
+          // field
+          .column__field
+            input.checkbox(type="checkbox" name="real_di_4A1_S2" id="real_di_4A1_S2")
+            label.checkbox-label.left.mr-8(for="real_di_4A1_S2")
+            input.checkbox(type="checkbox" name="di_4A1_S2" id="di_4A1_S2")
+            label.checkbox-label.left.mr-8(for="di_4A1_S2")
+            p
+              | Прив. 4А1 ролики расцеплены 
+
+          // field
+          .column__field
+            input.checkbox(type="checkbox" name="real_di_4A2_S1" id="real_di_4A2_S1")
+            label.checkbox-label.left.mr-8(for="real_di_4A2_S1")
+            input.checkbox(type="checkbox" name="di_4A2_S1" id="di_4A2_S1")
+            label.checkbox-label.left.mr-8(for="di_4A2_S1")
+            p
+              | Прив. 4А2(ППов.Р2)ролики зацеплены            
+
+        // subcolumn
+        .column.mr-40
+
+          // field
+          .column__field
+            input.checkbox(type="checkbox" name="real_di_4A2_S2" id="real_di_4A2_S2")
+            label.checkbox-label.left.mr-8(for="real_di_4A2_S2")
+            input.checkbox(type="checkbox" name="di_4A2_S2" id="di_4A2_S2")
+            label.checkbox-label.left.mr-8(for="di_4A2_S2")
+            p
+              | Прив. 4А2 ролики расцеплены           
+
+          // field
+          .column__field
+            input.checkbox(type="checkbox" name="real_di_4A3_S1" id="real_di_4A3_S1")
+            label.checkbox-label.left.mr-8(for="real_di_4A3_S1")
+            input.checkbox(type="checkbox" name="di_4A3_S1" id="di_4A3_S1")
+            label.checkbox-label.left.mr-8(for="di_4A3_S1")
+            p
+              | Прив. 4А3(ППов.Р3)ролики зацеплены
+
+          // field
+          .column__field
+            input.checkbox(type="checkbox" name="real_di_4A3_S2" id="real_di_4A3_S2")
+            label.checkbox-label.left.mr-8(for="real_di_4A3_S2")
+            input.checkbox(type="checkbox" name="di_4A3_S2" id="di_4A3_S2")
+            label.checkbox-label.left.mr-8(for="di_4A3_S2")
+            p
+              | Прив. 4А3 ролики расцеплены  
+
+        // subcolumn
+        .column
+
+          // field
+          .column__field
+            input.checkbox(type="checkbox" name="real_di_5A1_T" id="real_di_5A1_T")
+            label.checkbox-label.left.mr-8(for="real_di_5A1_T")
+            input.checkbox(type="checkbox" name="di_5A1_T" id="di_5A1_T")
+            label.checkbox-label.left.mr-8(for="di_5A1_T")
+            p
+              | Клапан вырав. давления ГЗ открыт         
+
+          // field
+          .column__field
+            input.checkbox(type="checkbox" name="real_di_5A1_FC" id="real_di_5A1_FC")
+            label.checkbox-label.left.mr-8(for="real_di_5A1_FC")
+            input.checkbox(type="checkbox" name="di_5A1_FC" id="di_5A1_FC")
+            label.checkbox-label.left.mr-8(for="di_5A1_FC")
+            p
+              | Клапан вырав. давления ГЗ загермет.
+
+      // / column КВ роликов
+
+    // subtab content for OUTS
+    .subtabs__content.subtabs__content__outs
+
+      // column Привод перемещения рамы и привод перемещения полотна
+      .column.mr-40
+        .column__title-block
+          | Прив. перем. рамы и прив. перем полотна
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_frame_CL_" id="real_do_frame_CL_")
+          label.checkbox-label.left.mr-8(for="real_do_frame_CL_")
+          input.checkbox(type="checkbox" name="do_frame_CL_" id="do_frame_CL_")
+          label.checkbox-label.left.mr-8(for="do_frame_CL_")
+          p
+            | Прив. 1А1 вперед
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_frame_OP_" id="real_do_frame_OP_")
+          label.checkbox-label.left.mr-8(for="real_do_frame_OP_")
+          input.checkbox(type="checkbox" name="do_frame_OP_" id="do_frame_OP_")
+          label.checkbox-label.left.mr-8(for="do_frame_OP_")
+          p
+            | Прив. 1А1 назад
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_2A1_OP_" id="real_do_2A1_OP_")
+          label.checkbox-label.left.mr-8(for="real_do_2A1_OP_")
+          input.checkbox(type="checkbox" name="do_2A1_OP_" id="do_2A1_OP_")
+          label.checkbox-label.left.mr-8(for="do_2A1_OP_")
+          p
+            | Прив. 2А1 вперед
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_2A1_CL_" id="real_do_2A1_CL_")
+          label.checkbox-label.left.mr-8(for="real_do_2A1_CL_")
+          input.checkbox(type="checkbox" name="do_2A1_CL_" id="do_2A1_CL_")
+          label.checkbox-label.left.mr-8(for="do_2A1_CL_")
+          p
+            | Прив. 2А1 назад
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_2A2_OP_" id="real_do_2A2_OP_")
+          label.checkbox-label.left.mr-8(for="real_do_2A2_OP_")
+          input.checkbox(type="checkbox" name="do_2A2_OP_" id="do_2A2_OP_")
+          label.checkbox-label.left.mr-8(for="do_2A2_OP_")
+          p
+            | Прив. 2А2 вперед
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_2A2_CL_" id="real_do_2A2_CL_")
+          label.checkbox-label.left.mr-8(for="real_do_2A2_CL_")
+          input.checkbox(type="checkbox" name="do_2A2_CL_" id="do_2A2_CL_")
+          label.checkbox-label.left.mr-8(for="do_2A2_CL_")
+          p
+            | Прив. 2А2 назад
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_2A3_OP_" id="real_do_2A3_OP_")
+          label.checkbox-label.left.mr-8(for="real_do_2A3_OP_")
+          input.checkbox(type="checkbox" name="do_2A3_OP_" id="do_2A3_OP_")
+          label.checkbox-label.left.mr-8(for="do_2A3_OP_")
+          p
+            | Прив. 2А3 вперед
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_2A3_CL_" id="real_do_2A3_CL_")
+          label.checkbox-label.left.mr-8(for="real_do_2A3_CL_")
+          input.checkbox(type="checkbox" name="do_2A3_CL_" id="do_2A3_CL_")
+          label.checkbox-label.left.mr-8(for="do_2A3_CL_")
+          p
+            | Прив. 2А3 назад       
+
+        // space field
+        .column__field
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_CB_2A1_2A3_Forward" id="real_CB_2A1_2A3_Forward")
+          label.checkbox-label.left.mr-8(for="real_CB_2A1_2A3_Forward")
+          input.checkbox(type="checkbox" name="CB_2A1_2A3_Forward" id="CB_2A1_2A3_Forward")
+          label.checkbox-label.left.mr-8(for="CB_2A1_2A3_Forward")
+          p
+            | 2A1-2A3 вперед
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_CB_2A1_2A3_Backward" id="real_CB_2A1_2A3_Backward")
+          label.checkbox-label.left.mr-8(for="real_CB_2A1_2A3_Backward")
+          input.checkbox(type="checkbox" name="CB_2A1_2A3_Backward" id="CB_2A1_2A3_Backward")
+          label.checkbox-label.left.mr-8(for="CB_2A1_2A3_Backward")
+          p
+            | 2A1-2A3 назад
+
+        // space field
+        .column__field
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_CB_2_Forward_3_Close" id="real_CB_2_Forward_3_Close")
+          label.checkbox-label.left.mr-8(for="real_CB_2_Forward_3_Close")
+          input.checkbox(type="checkbox" name="CB_2_Forward_3_Close" id="CB_2_Forward_3_Close")
+          label.checkbox-label.left.mr-8(for="CB_2_Forward_3_Close")
+          p
+            | 2A1-2A3 вперед + 3A1-3A6 закр
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_CB_2_Backward_3_Open" id="real_CB_2_Backward_3_Open")
+          label.checkbox-label.left.mr-8(for="real_CB_2_Backward_3_Open")
+          input.checkbox(type="checkbox" name="CB_2_Backward_3_Open" id="CB_2_Backward_3_Open")
+          label.checkbox-label.left.mr-8(for="CB_2_Backward_3_Open")
+          p
+            | 2A1-2A3 назад + 3A1-3A6 откр
+
+      // / column Привод перемещения рамы и привод перемещения полотна
+
+      // column Привода герметизации
+      .column.mr-40
+        .column__title-block
+          | Привода герметизации
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_3A1_OP_" id="real_do_3A1_OP_")
+          label.checkbox-label.left.mr-8(for="real_do_3A1_OP_")
+          input.checkbox(type="checkbox" name="do_3A1_OP_" id="do_3A1_OP_")
+          label.checkbox-label.left.mr-8(for="do_3A1_OP_")
+          p
+            | Прив.3А1 откр
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_3A1_CL_" id="real_do_3A1_CL_")
+          label.checkbox-label.left.mr-8(for="real_do_3A1_CL_")
+          input.checkbox(type="checkbox" name="do_3A1_CL_" id="do_3A1_CL_")
+          label.checkbox-label.left.mr-8(for="do_3A1_CL_")
+          p
+            | Прив.3А1 закр
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_3A2_OP_" id="real_do_3A2_OP_")
+          label.checkbox-label.left.mr-8(for="real_do_3A2_OP_")
+          input.checkbox(type="checkbox" name="do_3A2_OP_" id="do_3A2_OP_")
+          label.checkbox-label.left.mr-8(for="do_3A2_OP_")
+          p
+            | Прив.3А2 откр
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_3A2_CL_" id="real_do_3A2_CL_")
+          label.checkbox-label.left.mr-8(for="real_do_3A2_CL_")
+          input.checkbox(type="checkbox" name="do_3A2_CL_" id="do_3A2_CL_")
+          label.checkbox-label.left.mr-8(for="do_3A2_CL_")
+          p
+            | Прив.3А2 закр
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_3A3_OP_" id="real_do_3A3_OP_")
+          label.checkbox-label.left.mr-8(for="real_do_3A3_OP_")
+          input.checkbox(type="checkbox" name="do_3A3_OP_" id="do_3A3_OP_")
+          label.checkbox-label.left.mr-8(for="do_3A3_OP_")
+          p
+            | Прив.3А3 откр
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_3A3_CL_" id="real_do_3A3_CL_")
+          label.checkbox-label.left.mr-8(for="real_do_3A3_CL_")
+          input.checkbox(type="checkbox" name="do_3A3_CL_" id="do_3A3_CL_")
+          label.checkbox-label.left.mr-8(for="do_3A3_CL_")
+          p
+            | Прив.3А3 закр
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_3A4_OP_" id="real_do_3A4_OP_")
+          label.checkbox-label.left.mr-8(for="real_do_3A4_OP_")
+          input.checkbox(type="checkbox" name="do_3A4_OP_" id="do_3A4_OP_")
+          label.checkbox-label.left.mr-8(for="do_3A4_OP_")
+          p
+            | Прив.3А4 откр
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_3A4_CL_" id="real_do_3A4_CL_")
+          label.checkbox-label.left.mr-8(for="real_do_3A4_CL_")
+          input.checkbox(type="checkbox" name="do_3A4_CL_" id="do_3A4_CL_")
+          label.checkbox-label.left.mr-8(for="do_3A4_CL_")
+          p
+            | Прив.3А4 закр   
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_3A5_OP_" id="real_do_3A5_OP_")
+          label.checkbox-label.left.mr-8(for="real_do_3A5_OP_")
+          input.checkbox(type="checkbox" name="do_3A5_OP_" id="do_3A5_OP_")
+          label.checkbox-label.left.mr-8(for="do_3A5_OP_")
+          p
+            | Прив.3А5 откр
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_3A5_CL_" id="real_do_3A5_CL_")
+          label.checkbox-label.left.mr-8(for="real_do_3A5_CL_")
+          input.checkbox(type="checkbox" name="do_3A5_CL_" id="do_3A5_CL_")
+          label.checkbox-label.left.mr-8(for="do_3A5_CL_")
+          p
+            | Прив.3А5 закр
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_3A6_OP_" id="real_do_3A6_OP_")
+          label.checkbox-label.left.mr-8(for="real_do_3A6_OP_")
+          input.checkbox(type="checkbox" name="do_3A6_OP_" id="do_3A6_OP_")
+          label.checkbox-label.left.mr-8(for="do_3A6_OP_")
+          p
+            | Прив.3А6 откр
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_3A6_CL_" id="real_do_3A6_CL_")
+          label.checkbox-label.left.mr-8(for="real_do_3A6_CL_")
+          input.checkbox(type="checkbox" name="do_3A6_CL_" id="do_3A6_CL_")
+          label.checkbox-label.left.mr-8(for="do_3A6_CL_")
+          p
+            | Прив.3А6 закр
+
+        // field space
+        .column__field
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_CB_3A1_3A6_Open" id="real_CB_3A1_3A6_Open")
+          label.checkbox-label.left.mr-8(for="real_CB_3A1_3A6_Open")
+          input.checkbox(type="checkbox" name="CB_3A1_3A6_Open" id="CB_3A1_3A6_Open")
+          label.checkbox-label.left.mr-8(for="CB_3A1_3A6_Open")
+          p
+            | 3A1-3A6 откр
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_CB_3A1_3A6_Close" id="real_CB_3A1_3A6_Close")
+          label.checkbox-label.left.mr-8(for="real_CB_3A1_3A6_Close")
+          input.checkbox(type="checkbox" name="CB_3A1_3A6_Close" id="CB_3A1_3A6_Close")
+          label.checkbox-label.left.mr-8(for="CB_3A1_3A6_Close")
+          p
+            | 3A1-3A6 закр       
+
+      // / column Привода герметизации
+
+      // column Привода Пов.Роликов, КВД, Ревун, Маяк
+      .column
+        .column__title-block
+          | Привода Пов.Роликов, КВД, Ревун, Маяк
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_3A1_OP_" id="real_do_4A1_CLOSE_")
+          label.checkbox-label.left.mr-8(for="real_do_4A1_CLOSE_")
+          input.checkbox(type="checkbox" name="do_4A1_CLOSE_" id="do_4A1_CLOSE_")
+          label.checkbox-label.left.mr-8(for="do_4A1_CLOSE_")
+          p
+            | Прив. 4A1 вперед
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_4A1_UNCLOSE_" id="real_do_4A1_UNCLOSE_")
+          label.checkbox-label.left.mr-8(for="real_do_4A1_UNCLOSE_")
+          input.checkbox(type="checkbox" name="do_4A1_UNCLOSE_" id="do_4A1_UNCLOSE_")
+          label.checkbox-label.left.mr-8(for="do_4A1_UNCLOSE_")
+          p
+            | Прив. 4A1 назад
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_4A2_CLOSE_" id="real_do_4A2_CLOSE_")
+          label.checkbox-label.left.mr-8(for="real_do_4A2_CLOSE_")
+          input.checkbox(type="checkbox" name="do_4A2_CLOSE_" id="do_4A2_CLOSE_")
+          label.checkbox-label.left.mr-8(for="do_4A2_CLOSE_")
+          p
+            | Прив. 4A2 вперед
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_4A2_UNCLOSE_" id="real_do_4A2_UNCLOSE_")
+          label.checkbox-label.left.mr-8(for="real_do_4A2_UNCLOSE_")
+          input.checkbox(type="checkbox" name="do_4A2_UNCLOSE_" id="do_4A2_UNCLOSE_")
+          label.checkbox-label.left.mr-8(for="do_4A2_UNCLOSE_")
+          p
+            | Прив. 4A2 назад
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_4A3_CLOSE_" id="real_do_4A3_CLOSE_")
+          label.checkbox-label.left.mr-8(for="real_do_4A3_CLOSE_")
+          input.checkbox(type="checkbox" name="do_4A3_CLOSE_" id="do_4A3_CLOSE_")
+          label.checkbox-label.left.mr-8(for="do_4A3_CLOSE_")
+          p
+            | Прив. 4A3 вперед
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_4A3_UNCLOSE_" id="real_do_4A3_UNCLOSE_")
+          label.checkbox-label.left.mr-8(for="real_do_4A3_UNCLOSE_")
+          input.checkbox(type="checkbox" name="do_4A3_UNCLOSE_" id="do_4A3_UNCLOSE_")
+          label.checkbox-label.left.mr-8(for="do_4A3_UNCLOSE_")
+          p
+            | Прив. 4A3 назад
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_5A1_OP_" id="real_do_5A1_OP_")
+          label.checkbox-label.left.mr-8(for="real_do_5A1_OP_")
+          input.checkbox(type="checkbox" name="do_5A1_OP_" id="do_5A1_OP_")
+          label.checkbox-label.left.mr-8(for="do_5A1_OP_")
+          p
+            | Прив. 5A1 вперед
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_5A1_CL_" id="real_do_5A1_CL_")
+          label.checkbox-label.left.mr-8(for="real_do_5A1_CL_")
+          input.checkbox(type="checkbox" name="do_5A1_CL_" id="do_5A1_CL_")
+          label.checkbox-label.left.mr-8(for="do_5A1_CL_")
+          p
+            | Прив. 5A1 назад
+
+      // / column Привода герметизации
+
+      // column buttons
+      .column.pt-40.full-width.no-left
+        button.btn-grey.btn-grey-small.w-120.left.mr-20
+          | Блокировка
+        button.btn-grey.btn-grey-small.w-290.left.mr-20
+          | Шлюзовые ворота разблокированы
+        button.btn-grey.btn-grey-small.w-150.left.mr-20
+          | Проверка ламп
+
+      // column buttons
+      .column.full-width.no-left.mt-70
+        button.btn-grey.btn-grey-big.w-180.no-left
+          | Старт импульс
+        button.btn-grey.btn-grey-big.w-190.no-left.mt-10
+          | Старт изменений
+
+  // tab content 2
+  .tabs__content.tabs__content__two
+
+    // subtab content for IN
+    .subtabs__content.subtabs__content__in
+
+      // column КВ Рамы
+      .column.mr-40
+        .column__title-block
+          | КВ Рамы
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2S12" id="real_di_2S12")
+          label.checkbox-label.left.mr-8(for="real_di_2S12")
+          input.checkbox(type="checkbox" name="di_2S12" id="di_2S12")
+          label.checkbox-label.left.mr-8(for="di_2S12")
+          p
+            | Рама против проема ворот НГЗ
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2S13" id="real_di_2S13")
+          label.checkbox-label.left.mr-8(for="real_di_2S13")
+          input.checkbox(type="checkbox" name="di_2S13" id="di_2S13")
+          label.checkbox-label.left.mr-8(for="di_2S13")
+          p
+            | Полотно ворот подв. к шпилькам 1
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2S14" id="real_di_2S14")
+          label.checkbox-label.left.mr-8(for="real_di_2S14")
+          input.checkbox(type="checkbox" name="di_2S14" id="di_2S14")
+          label.checkbox-label.left.mr-8(for="di_2S14")
+          p
+            | Полотно ворот подв. к шпилькам 2
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2S15" id="real_di_2S15")
+          label.checkbox-label.left.mr-8(for="real_di_2S15")
+          input.checkbox(type="checkbox" name="di_2S15" id="di_2S15")
+          label.checkbox-label.left.mr-8(for="di_2S15")
+          p
+            | Полотно ворот подв. к шпилькам 3
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2S126" id="real_di_2S126")
+          label.checkbox-label.left.mr-8(for="real_di_2S126")
+          input.checkbox(type="checkbox" name="di_2S126" id="di_2S126")
+          label.checkbox-label.left.mr-8(for="di_2S126")
+          p
+            | Край. полож. рамы ворот НГЗ (в стороне)
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2S19" id="real_di_2S19")
+          label.checkbox-label.left.mr-8(for="real_di_2S19")
+          input.checkbox(type="checkbox" name="di_2S19" id="di_2S19")
+          label.checkbox-label.left.mr-8(for="di_2S19")
+          p
+            | Ролики введены в колпаки 1
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2S20" id="real_di_2S20")
+          label.checkbox-label.left.mr-8(for="real_di_2S20")
+          input.checkbox(type="checkbox" name="di_2S20" id="di_2S20")
+          label.checkbox-label.left.mr-8(for="di_2S20")
+          p
+            | Ролики введены в колпаки 2
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2S21" id="real_di_2S21")
+          label.checkbox-label.left.mr-8(for="real_di_2S21")
+          input.checkbox(type="checkbox" name="di_2S21" id="di_2S21")
+          label.checkbox-label.left.mr-8(for="di_2S21")
+          p
+            | Ролики введены в колпаки 3            
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2SQ18" id="real_di_2SQ18")
+          label.checkbox-label.left.mr-8(for="real_di_2SQ18")
+          input.checkbox(type="checkbox" name="di_2SQ18" id="di_2SQ18")
+          label.checkbox-label.left.mr-8(for="di_2SQ18")
+          p
+            | Аварийный люк закрыт
+
+      // / column КВ Рамы
+
+      // column ПУ 3
+      .column.mr-40
+        .column__title-block
+          | ПУ 3
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2SB1" id="real_di_2SB1")
+          label.checkbox-label.left.mr-8(for="real_di_2SB1")
+          input.checkbox(type="checkbox" name="di_2SB1" id="di_2SB1")
+          label.checkbox-label.left.mr-8(for="di_2SB1")
+          p
+            | Кнопка "Ворота НГЗ открыть"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2SB2" id="real_di_2SB2")
+          label.checkbox-label.left.mr-8(for="real_di_2SB2")
+          input.checkbox(type="checkbox" name="di_2SB2" id="di_2SB2")
+          label.checkbox-label.left.mr-8(for="di_2SB2")
+          p
+            | Кнопка "Стоп"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2SB3" id="real_di_2SB3")
+          label.checkbox-label.left.mr-8(for="real_di_2SB3")
+          input.checkbox(type="checkbox" name="di_2SB3" id="di_2SB3")
+          label.checkbox-label.left.mr-8(for="di_2SB3")
+          p
+            | Кнопка "Ворота НГЗ закрыть"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2SB4" id="real_di_2SB4")
+          label.checkbox-label.left.mr-8(for="real_di_2SB4")
+          input.checkbox(type="checkbox" name="di_2SB4" id="di_2SB4")
+          label.checkbox-label.left.mr-8(for="di_2SB4")
+          p
+            | Кнопка "Мост НГЗ поднять"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2SB2" id="real_di_2SB2")
+          label.checkbox-label.left.mr-8(for="real_di_2SB2")
+          input.checkbox(type="checkbox" name="di_2SB5" id="di_2SB2")
+          label.checkbox-label.left.mr-8(for="di_2SB2")
+          p
+            | Кнопка "Стоп"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2SB3" id="real_di_2SB3")
+          label.checkbox-label.left.mr-8(for="real_di_2SB3")
+          input.checkbox(type="checkbox" name="di_2SB3" id="di_2SB3")
+          label.checkbox-label.left.mr-8(for="di_2SB3")
+          p
+            | Кнопка "Ворота НГЗ закрыть"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2SB4" id="real_di_2SB4")
+          label.checkbox-label.left.mr-8(for="real_di_2SB4")
+          input.checkbox(type="checkbox" name="di_2SB4" id="di_2SB4")
+          label.checkbox-label.left.mr-8(for="di_2SB4")
+          p
+            | Кнопка "Мост НГЗ поднять"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2SB5" id="real_di_2SB5")
+          label.checkbox-label.left.mr-8(for="real_di_2SB5")
+          input.checkbox(type="checkbox" name="di_2SB5" id="di_2SB5")
+          label.checkbox-label.left.mr-8(for="di_2SB5")
+          p
+            | Кнопка "Стоп"        
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2SB6" id="real_di_2SB6")
+          label.checkbox-label.left.mr-8(for="real_di_2SB6")
+          input.checkbox(type="checkbox" name="di_2SB6" id="di_2SB6")
+          label.checkbox-label.left.mr-8(for="di_2SB6")
+          p
+            | Кнопка "Мост НГЗ опустить"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2SB7" id="real_di_2SB7")
+          label.checkbox-label.left.mr-8(for="real_di_2SB7")
+          input.checkbox(type="checkbox" name="di_2SB7" id="di_2SB7")
+          label.checkbox-label.left.mr-8(for="di_2SB7")
+          p
+            | Кнопка "Проезд через ворота разрешен"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2SB8" id="real_di_2SB8")
+          label.checkbox-label.left.mr-8(for="real_di_2SB8")
+          input.checkbox(type="checkbox" name="di_2SB8" id="di_2SB8")
+          label.checkbox-label.left.mr-8(for="di_2SB8")
+          p
+            | Кнопка "Тест ламп"
+
+      // / ПУ 3
+
+      // column ПУ 4
+      .column
+        .column__title-block
+          | ПУ 4
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2SB1" id="real_di_2SB1")
+          label.checkbox-label.left.mr-8(for="real_di_2SB1")
+          input.checkbox(type="checkbox" name="di_2SB1" id="di_2SB1")
+          label.checkbox-label.left.mr-8(for="di_2SB1")
+          p
+            | Кнопка "Ворота НГЗ открыть"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2SB2" id="real_di_2SB2")
+          label.checkbox-label.left.mr-8(for="real_di_2SB2")
+          input.checkbox(type="checkbox" name="di_2SB2" id="di_2SB2")
+          label.checkbox-label.left.mr-8(for="di_2SB2")
+          p
+            | Кнопка "Стоп"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2SB3" id="real_di_2SB3")
+          label.checkbox-label.left.mr-8(for="real_di_2SB3")
+          input.checkbox(type="checkbox" name="di_2SB3" id="di_2SB3")
+          label.checkbox-label.left.mr-8(for="di_2SB3")
+          p
+            | Кнопка "Ворота НГЗ закрыть"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2SB4" id="real_di_2SB4")
+          label.checkbox-label.left.mr-8(for="real_di_2SB4")
+          input.checkbox(type="checkbox" name="di_2SB4" id="di_2SB4")
+          label.checkbox-label.left.mr-8(for="di_2SB4")
+          p
+            | Кнопка "Мост НГЗ поднять"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2SB2" id="real_di_2SB2")
+          label.checkbox-label.left.mr-8(for="real_di_2SB2")
+          input.checkbox(type="checkbox" name="di_2SB5" id="di_2SB2")
+          label.checkbox-label.left.mr-8(for="di_2SB2")
+          p
+            | Кнопка "Стоп"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2SB3" id="real_di_2SB3")
+          label.checkbox-label.left.mr-8(for="real_di_2SB3")
+          input.checkbox(type="checkbox" name="di_2SB3" id="di_2SB3")
+          label.checkbox-label.left.mr-8(for="di_2SB3")
+          p
+            | Кнопка "Ворота НГЗ закрыть"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2SB4" id="real_di_2SB4")
+          label.checkbox-label.left.mr-8(for="real_di_2SB4")
+          input.checkbox(type="checkbox" name="di_2SB4" id="di_2SB4")
+          label.checkbox-label.left.mr-8(for="di_2SB4")
+          p
+            | Кнопка "Мост НГЗ поднять"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2SB5" id="real_di_2SB5")
+          label.checkbox-label.left.mr-8(for="real_di_2SB5")
+          input.checkbox(type="checkbox" name="di_2SB5" id="di_2SB5")
+          label.checkbox-label.left.mr-8(for="di_2SB5")
+          p
+            | Кнопка "Стоп"        
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2SB6" id="real_di_2SB6")
+          label.checkbox-label.left.mr-8(for="real_di_2SB6")
+          input.checkbox(type="checkbox" name="di_2SB6" id="di_2SB6")
+          label.checkbox-label.left.mr-8(for="di_2SB6")
+          p
+            | Кнопка "Мост НГЗ опустить"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2SB7" id="real_di_2SB7")
+          label.checkbox-label.left.mr-8(for="real_di_2SB7")
+          input.checkbox(type="checkbox" name="di_2SB7" id="di_2SB7")
+          label.checkbox-label.left.mr-8(for="di_2SB7")
+          p
+            | Кнопка "Проезд через ворота разрешен"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2SB8" id="real_di_2SB8")
+          label.checkbox-label.left.mr-8(for="real_di_2SB8")
+          input.checkbox(type="checkbox" name="di_2SB8" id="di_2SB8")
+          label.checkbox-label.left.mr-8(for="di_2SB8")
+          p
+            | Кнопка "Тест ламп"
+
+      // / column ПУ 4
+
+      // column МВ ПГ
+      .column.mr-40
+        .column__title-block
+          | МВ ПГ
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_3A7_FC" id="real_di_3A7_FC")
+          label.checkbox-label.left.mr-8(for="real_di_3A7_FC")
+          input.checkbox(type="checkbox" name="di_3A7_FC" id="di_3A7_FC")
+          label.checkbox-label.left.mr-8(for="di_3A7_FC")
+          p
+            | Прив.3А7(ПГ1) момнт. разгерметизация
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_3A7_FT" id="real_di_3A7_FT")
+          label.checkbox-label.left.mr-8(for="real_di_3A7_FT")
+          input.checkbox(type="checkbox" name="di_3A7_FT" id="di_3A7_FT")
+          label.checkbox-label.left.mr-8(for="di_3A7_FT")
+          p
+            | Прив.3А7 моментный герметизация
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_3A8_FC" id="real_di_3A8_FC")
+          label.checkbox-label.left.mr-8(for="real_di_3A8_FC")
+          input.checkbox(type="checkbox" name="di_3A8_FC" id="di_3A8_FC")
+          label.checkbox-label.left.mr-8(for="di_3A8_FC")
+          p
+            | Прив.3А8(ПГ2) момнт. разгерметизация
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_3A8_FT" id="real_di_3A8_FT")
+          label.checkbox-label.left.mr-8(for="real_di_3A8_FT")
+          input.checkbox(type="checkbox" name="di_3A8_FT" id="di_3A8_FT")
+          label.checkbox-label.left.mr-8(for="di_3A8_FT")
+          p
+            | Прив.3А8 моментный герметизация
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_3A9_FC" id="real_di_3A9_FC")
+          label.checkbox-label.left.mr-8(for="real_di_3A9_FC")
+          input.checkbox(type="checkbox" name="di_3A9_FC" id="di_3A9_FC")
+          label.checkbox-label.left.mr-8(for="di_3A9_FC")
+          p
+            | Прив.3А9(ПГ3) момнт. разгерметизация
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_3A9_FT" id="real_di_3A9_FT")
+          label.checkbox-label.left.mr-8(for="real_di_3A9_FT")
+          input.checkbox(type="checkbox" name="di_3A9_FT" id="di_3A9_FT")
+          label.checkbox-label.left.mr-8(for="di_3A9_FT")
+          p
+            | Прив.3А9 моментный герметизация
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_3A10_FC" id="real_di_3A10_FC")
+          label.checkbox-label.left.mr-8(for="real_di_3A10_FC")
+          input.checkbox(type="checkbox" name="di_3A10_FC" id="di_3A10_FC")
+          label.checkbox-label.left.mr-8(for="di_3A10_FC")
+          p
+            | Прив.3А10(ПГ4) момнт. разгерметизация
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_3A10_FT" id="real_di_3A10_FT")
+          label.checkbox-label.left.mr-8(for="real_di_3A10_FT")
+          input.checkbox(type="checkbox" name="di_3A10_FT" id="di_3A10_FT")
+          label.checkbox-label.left.mr-8(for="di_3A10_FT")
+          p
+            | Прив.3А10 моментный герметизация      
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_3A11_FC" id="real_di_3A11_FC")
+          label.checkbox-label.left.mr-8(for="real_di_3A11_FC")
+          input.checkbox(type="checkbox" name="di_3A11_FC" id="di_3A11_FC")
+          label.checkbox-label.left.mr-8(for="di_3A11_FC")
+          p
+            | Прив.3А11(ПГ5) момнт. разгерметизация
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_3A11_FT" id="real_di_3A11_FT")
+          label.checkbox-label.left.mr-8(for="real_di_3A11_FT")
+          input.checkbox(type="checkbox" name="di_3A11_FT" id="di_3A11_FT")
+          label.checkbox-label.left.mr-8(for="di_3A11_FT")
+          p
+            | Прив.3А11 моментный герметизация
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_3A12_FC" id="real_di_3A12_FC")
+          label.checkbox-label.left.mr-8(for="real_di_3A12_FC")
+          input.checkbox(type="checkbox" name="di_3A12_FC" id="di_3A12_FC")
+          label.checkbox-label.left.mr-8(for="di_3A12_FC")
+          p
+            | Прив.3А12(ПГ6) момнт. разгерметизация
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_3A12_FT" id="real_di_3A12_FT")
+          label.checkbox-label.left.mr-8(for="real_di_3A12_FT")
+          input.checkbox(type="checkbox" name="di_3A12_FT" id="di_3A12_FT")
+          label.checkbox-label.left.mr-8(for="di_3A12_FT")
+          p
+            | Прив.3А12 моментный герметизация
+
+      // / column МВ ПГ
+
+      // column МВ и КВ ППП
+      .column.mr-40
+        .column__title-block
+          | МВ и КВ ППП
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2A4_FC" id="real_di_2A4_FC")
+          label.checkbox-label.left.mr-8(for="real_di_2A4_FC")
+          input.checkbox(type="checkbox" name="di_2A4_FC" id="di_2A4_FC")
+          label.checkbox-label.left.mr-8(for="di_2A4_FC")
+          p
+            | Прив.2А4(ППП1) моментный к торцу
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2A4_FT" id="real_di_2A4_FT")
+          label.checkbox-label.left.mr-8(for="real_di_2A4_FT")
+          input.checkbox(type="checkbox" name="di_2A4_FT" id="di_2A4_FT")
+          label.checkbox-label.left.mr-8(for="di_2A4_FT")
+          p
+            | Прив.2А4 моментный от торца
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2A4_T" id="real_di_2A4_T")
+          label.checkbox-label.left.mr-8(for="real_di_2A4_T")
+          input.checkbox(type="checkbox" name="di_2A4_T" id="di_2A4_T")
+          label.checkbox-label.left.mr-8(for="di_2A4_T")
+          p
+            | Прив.2А4 полотно отведено на раму
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2A5_FC" id="real_di_2A5_FC")
+          label.checkbox-label.left.mr-8(for="real_di_2A5_FC")
+          input.checkbox(type="checkbox" name="di_2A5_FC" id="di_2A5_FC")
+          label.checkbox-label.left.mr-8(for="di_2A5_FC")
+          p
+            | Прив.2А5(ППП2) моментный к торцу
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2A5_FT" id="real_di_2A5_FT")
+          label.checkbox-label.left.mr-8(for="real_di_2A5_FT")
+          input.checkbox(type="checkbox" name="di_2A5_FT" id="di_2A5_FT")
+          label.checkbox-label.left.mr-8(for="di_2A5_FT")
+          p
+            | Прив.2А5 моментный от торца
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2A5_T" id="real_di_2A5_T")
+          label.checkbox-label.left.mr-8(for="real_di_2A5_T")
+          input.checkbox(type="checkbox" name="di_2A5_T" id="di_2A5_T")
+          label.checkbox-label.left.mr-8(for="di_2A5_T")
+          p
+            | Прив.2А5 полотно отведено на раму
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2A6_FC" id="real_di_2A6_FC")
+          label.checkbox-label.left.mr-8(for="real_di_2A6_FC")
+          input.checkbox(type="checkbox" name="di_2A6_FC" id="di_2A6_FC")
+          label.checkbox-label.left.mr-8(for="di_2A6_FC")
+          p
+            | Прив.2А6(ППП3) моментный к торцу
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2A6_FT" id="real_di_2A6_FT")
+          label.checkbox-label.left.mr-8(for="real_di_2A6_FT")
+          input.checkbox(type="checkbox" name="di_2A6_FT" id="di_2A6_FT")
+          label.checkbox-label.left.mr-8(for="di_2A6_FT")
+          p
+            | Прив.2А6 моментный от торца        
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2A6_T" id="real_di_2A6_T")
+          label.checkbox-label.left.mr-8(for="real_di_2A6_T")
+          input.checkbox(type="checkbox" name="di_2A6_T" id="di_2A6_T")
+          label.checkbox-label.left.mr-8(for="di_2A6_T")
+          p
+            | Прив.2А6 полотно отведено на раму
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2A4_C" id="real_di_2A4_C")
+          label.checkbox-label.left.mr-8(for="real_di_2A4_C")
+          input.checkbox(type="checkbox" name="di_2A4_C" id="di_2A4_C")
+          label.checkbox-label.left.mr-8(for="di_2A4_C")
+          p
+            | Прив.2А4 штоки в зоне герметизации
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2A5_C" id="real_di_2A5_C")
+          label.checkbox-label.left.mr-8(for="real_di_2A5_C")
+          input.checkbox(type="checkbox" name="di_2A5_C" id="di_2A5_C")
+          label.checkbox-label.left.mr-8(for="di_2A5_C")
+          p
+            | Прив.2А5 штоки в зоне герметизации
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_2A6_C" id="real_di_2A6_C")
+          label.checkbox-label.left.mr-8(for="real_di_2A6_C")
+          input.checkbox(type="checkbox" name="di_2A6_C" id="di_2A6_C")
+          label.checkbox-label.left.mr-8(for="di_2A6_C")
+          p
+            | Прив.2А6 штоки в зоне герметизации
+
+      // / column МВ и КВ ППП
+
+      // column КВ Роликов
+      .column
+        .column__title-block
+          | КВ Роликов
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_4A4_S1" id="real_di_4A4_S1")
+          label.checkbox-label.left.mr-8(for="real_di_4A4_S1")
+          input.checkbox(type="checkbox" name="di_4A4_S1" id="di_4A4_S1")
+          label.checkbox-label.left.mr-8(for="di_4A4_S1")
+          p
+            | Прив. 4А4(ППов.Р1)ролики зацеплены
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_4A4_S2" id="real_di_4A4_S2")
+          label.checkbox-label.left.mr-8(for="real_di_4A4_S2")
+          input.checkbox(type="checkbox" name="di_4A4_S2" id="di_4A4_S2")
+          label.checkbox-label.left.mr-8(for="di_4A4_S2")
+          p
+            | Прив. 4А4 ролики расцеплены
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_4A5_S1" id="real_di_4A5_S1")
+          label.checkbox-label.left.mr-8(for="real_di_4A5_S1")
+          input.checkbox(type="checkbox" name="di_4A5_S1" id="di_4A5_S1")
+          label.checkbox-label.left.mr-8(for="di_4A5_S1")
+          p
+            | Прив. 4А5(ППов.Р2)ролики зацеплены
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_4A5_S2" id="real_di_4A5_S2")
+          label.checkbox-label.left.mr-8(for="real_di_4A5_S2")
+          input.checkbox(type="checkbox" name="di_4A5_S2" id="di_4A5_S2")
+          label.checkbox-label.left.mr-8(for="di_4A5_S2")
+          p
+            | Прив. 4А5 ролики расцеплены
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_4A6_S1" id="real_di_4A6_S1")
+          label.checkbox-label.left.mr-8(for="real_di_4A6_S1")
+          input.checkbox(type="checkbox" name="di_4A6_S1" id="di_4A6_S1")
+          label.checkbox-label.left.mr-8(for="di_4A6_S1")
+          p
+            | Прив. 4А6(ППов.Р1)ролики зацеплены
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_4A6_S2" id="real_di_4A6_S2")
+          label.checkbox-label.left.mr-8(for="real_di_4A6_S2")
+          input.checkbox(type="checkbox" name="di_4A6_S2" id="di_4A6_S2")
+          label.checkbox-label.left.mr-8(for="di_4A6_S2")
+          p
+            | Прив. 4А6 ролики расцеплены
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_4A7_S2" id="real_di_4A7_S2")
+          label.checkbox-label.left.mr-8(for="real_di_4A7_S2")
+          input.checkbox(type="checkbox" name="di_4A7_S2" id="di_4A7_S2")
+          label.checkbox-label.left.mr-8(for="di_4A7_S2")
+          p
+            | Прив. 4А7(ПЗВ) засов закрыт
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_4A7_S1" id="real_di_4A7_S1")
+          label.checkbox-label.left.mr-8(for="real_di_4A7_S1")
+          input.checkbox(type="checkbox" name="di_4A7_S1" id="di_4A7_S1")
+          label.checkbox-label.left.mr-8(for="di_4A7_S1")
+          p
+            | Прив. 4А7 засов открыт     
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_5A2_T" id="real_di_5A2_T")
+          label.checkbox-label.left.mr-8(for="real_di_5A2_T")
+          input.checkbox(type="checkbox" name="di_5A2_T" id="di_5A2_T")
+          label.checkbox-label.left.mr-8(for="di_5A2_T")
+          p
+            | КВД ГЗ открыт
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_5A2_FC" id="real_di_5A2_FC")
+          label.checkbox-label.left.mr-8(for="real_di_5A2_FC")
+          input.checkbox(type="checkbox" name="di_5A2_FC" id="di_5A2_FC")
+          label.checkbox-label.left.mr-8(for="di_5A2_FC")
+          p
+            | КВД ГЗ закрыт
+
+      // / column КВ Роликов
+
+      // column other
+      .column
+        .column__title-block
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="checkbox-1" id="checkbox-1")
+          label.checkbox-label.left.mr-8(for="checkbox-1")
+          input.checkbox(type="checkbox" name="checkbox-2" id="checkbox-2")
+          label.checkbox-label.left.mr-8(for="checkbox-2")
+          p
+            | Авария питания
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="checkbox-3" id="checkbox-3")
+          label.checkbox-label.left.mr-8(for="checkbox-3")
+          input.checkbox(type="checkbox" name="checkbox-4" id="checkbox-4")
+          label.checkbox-label.left.mr-8(for="checkbox-4")
+          p
+            | Состояние авт. выкл. шкафа 3
+
+      // / column other
+
+    // subtab content for OUTS
+    .subtabs__content.subtabs__content__outs
+
+      // column Привод перемещения рамы и привод перемещения полотна
+      .column.mr-40
+        .column__title-block
+          | Прив. перем. рамы и прив. перем полотна
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_1A2_OP_" id="real_do_1A2_OP_")
+          label.checkbox-label.left.mr-8(for="real_do_1A2_OP_")
+          input.checkbox(type="checkbox" name="do_1A2_OP_" id="do_1A2_OP_")
+          label.checkbox-label.left.mr-8(for="do_1A2_OP_")
+          p
+            | Прив. 1А2 вперед
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_1A2_CL_" id="real_do_1A2_CL_")
+          label.checkbox-label.left.mr-8(for="real_do_1A2_CL_")
+          input.checkbox(type="checkbox" name="do_1A2_CL_" id="do_1A2_CL_")
+          label.checkbox-label.left.mr-8(for="do_1A2_CL_")
+          p
+            | Прив. 1А2 назад
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_2A4_OP_" id="real_do_2A4_OP_")
+          label.checkbox-label.left.mr-8(for="real_do_2A4_OP_")
+          input.checkbox(type="checkbox" name="do_2A4_OP_" id="do_2A4_OP_")
+          label.checkbox-label.left.mr-8(for="do_2A4_OP_")
+          p
+            | Прив. 2А4 вперед
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_2A4_CL_" id="real_do_2A4_CL_")
+          label.checkbox-label.left.mr-8(for="real_do_2A4_CL_")
+          input.checkbox(type="checkbox" name="do_2A4_CL_" id="do_2A4_CL_")
+          label.checkbox-label.left.mr-8(for="do_2A4_CL_")
+          p
+            | Прив. 2А4 назад
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_2A5_OP_" id="real_do_2A5_OP_")
+          label.checkbox-label.left.mr-8(for="real_do_2A5_OP_")
+          input.checkbox(type="checkbox" name="do_2A5_OP_" id="do_2A5_OP_")
+          label.checkbox-label.left.mr-8(for="do_2A5_OP_")
+          p
+            | Прив. 2А5 вперед
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_2A5_CL_" id="real_do_2A5_CL_")
+          label.checkbox-label.left.mr-8(for="real_do_2A5_CL_")
+          input.checkbox(type="checkbox" name="do_2A5_CL_" id="do_2A5_CL_")
+          label.checkbox-label.left.mr-8(for="do_2A5_CL_")
+          p
+            | Прив. 2А5 назад
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_2A6_OP_" id="real_do_2A6_OP_")
+          label.checkbox-label.left.mr-8(for="real_do_2A6_OP_")
+          input.checkbox(type="checkbox" name="do_2A6_OP_" id="do_2A6_OP_")
+          label.checkbox-label.left.mr-8(for="do_2A6_OP_")
+          p
+            | Прив. 2А6 вперед
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_2A6_CL_" id="real_do_2A6_CL_")
+          label.checkbox-label.left.mr-8(for="real_do_2A6_CL_")
+          input.checkbox(type="checkbox" name="do_2A6_CL_" id="do_2A6_CL_")
+          label.checkbox-label.left.mr-8(for="do_2A6_CL_")
+          p
+            | Прив. 2А6 назад       
+
+        // space field
+        .column__field
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="CB_2A4_2A6_Forward" id="CB_2A4_2A6_Forward")
+          label.checkbox-label.left.mr-8(for="CB_2A4_2A6_Forward")
+
+          p
+            | 2A1-2A3 вперед
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="CB_2A4_2A6_Backward" id="CB_2A4_2A6_Backward")
+          label.checkbox-label.left.mr-8(for="CB_2A4_2A6_Backward")
+          p
+            | 2A4-2A6 назад
+
+        .column__title-block
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="CB_2a4_Forward_3_Close" id="CB_2a4_Forward_3_Close")
+          label.checkbox-label.left.mr-8(for="CB_2a4_Forward_3_Close")
+          p
+            | 2A4-2A6 вперед + 3A7-3A12 закр
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="CB_2a4_Backward_3_Open" id="CB_2a4_Backward_3_Open")
+          label.checkbox-label.left.mr-8(for="CB_2a4_Backward_3_Open")
+          p
+            | 2A4-2A6 назад + 3A7-3A12 откр
+
+      // / column Привод перемещения рамы и привод перемещения полотна
+
+      .column.mr-40
+        .column__title-block
+          | Привода герметизации
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_3A7_OP_" id="real_do_3A7_OP_")
+          label.checkbox-label.left.mr-8(for="real_do_3A7_OP_")
+          input.checkbox(type="checkbox" name="do_3A7_OP_" id="do_3A7_OP_")
+          label.checkbox-label.left.mr-8(for="do_3A7_OP_")
+          p
+            | Прив.3А7 откр
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_3A7_CL_" id="real_do_3A7_CL_")
+          label.checkbox-label.left.mr-8(for="real_do_3A7_CL_")
+          input.checkbox(type="checkbox" name="do_3A7_CL_" id="do_3A7_CL_")
+          label.checkbox-label.left.mr-8(for="do_3A7_CL_")
+          p
+            | Прив.3А7 закр
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_3A8_OP_" id="real_do_3A8_OP_")
+          label.checkbox-label.left.mr-8(for="real_do_3A8_OP_")
+          input.checkbox(type="checkbox" name="do_3A8_OP_" id="do_3A8_OP_")
+          label.checkbox-label.left.mr-8(for="do_3A8_OP_")
+          p
+            | Прив.3А8 откр
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_3A8_CL_" id="real_do_3A8_CL_")
+          label.checkbox-label.left.mr-8(for="real_do_3A8_CL_")
+          input.checkbox(type="checkbox" name="do_3A8_CL_" id="do_3A8_CL_")
+          label.checkbox-label.left.mr-8(for="do_3A8_CL_")
+          p
+            | Прив.3А8 закр
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_3A9_OP__" id="real_do_3A9_OP_")
+          label.checkbox-label.left.mr-8(for="real_do_3A9_OP_")
+          input.checkbox(type="checkbox" name="do_3A9_OP_" id="do_3A9_OP_")
+          label.checkbox-label.left.mr-8(for="do_3A9_OP_")
+          p
+            | Прив.3А9 откр
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_3A9_CL_" id="real_do_3A9_CL_")
+          label.checkbox-label.left.mr-8(for="real_do_3A9_CL_")
+          input.checkbox(type="checkbox" name="do_3A9_CL_" id="do_3A9_CL_")
+          label.checkbox-label.left.mr-8(for="do_3A9_CL_")
+          p
+            | Прив.3А9 закр
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_3A10_OP_" id="real_do_3A10_OP_")
+          label.checkbox-label.left.mr-8(for="real_do_3A10_OP_")
+          input.checkbox(type="checkbox" name="do_3A10_OP_" id="do_3A10_OP_")
+          label.checkbox-label.left.mr-8(for="do_3A10_OP_")
+          p
+            | Прив.3А10 откр
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_3A10_CL_" id="real_do_3A10_CL_")
+          label.checkbox-label.left.mr-8(for="real_do_3A10_CL_")
+          input.checkbox(type="checkbox" name="do_3A10_CL_" id="do_3A10_CL_")
+          label.checkbox-label.left.mr-8(for="do_3A10_CL_")
+          p
+            | Прив.3А10 закр  
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_3A11_OP_" id="real_do_3A11_OP_")
+          label.checkbox-label.left.mr-8(for="real_do_3A11_OP_")
+          input.checkbox(type="checkbox" name="do_3A11_OP_" id="do_3A11_OP_")
+          label.checkbox-label.left.mr-8(for="do_3A11_OP_")
+          p
+            | Прив.3А11 откр
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_3A11_CL_" id="real_do_3A11_CL_")
+          label.checkbox-label.left.mr-8(for="real_do_3A11_CL_")
+          input.checkbox(type="checkbox" name="do_3A11_CL_" id="do_3A11_CL_")
+          label.checkbox-label.left.mr-8(for="do_3A11_CL_")
+          p
+            | Прив.3А11 закр
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_3A12_OP_" id="real_do_3A12_OP_")
+          label.checkbox-label.left.mr-8(for="real_do_3A12_OP_")
+          input.checkbox(type="checkbox" name="do_3A12_OP_" id="do_3A12_OP_")
+          label.checkbox-label.left.mr-8(for="do_3A12_OP_")
+          p
+            | Прив.3А12 откр
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_3A12_CL_" id="real_do_3A12_CL_")
+          label.checkbox-label.left.mr-8(for="real_do_3A12_CL_")
+          input.checkbox(type="checkbox" name="do_3A12_CL_" id="do_3A12_CL_")
+          label.checkbox-label.left.mr-8(for="do_3A12_CL_")
+          p
+            | Прив.3А12 закр
+
+        // field space
+        .column__field
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="CB_3A7_3A12_Open" id="CB_3A7_3A12_Open")
+          label.checkbox-label.left.mr-8(for="CB_3A7_3A12_Open")
+          p
+            | 3A7-3A12 откр
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="CB_3A7_3A12_Close" id="CB_3A7_3A12_Close")
+          label.checkbox-label.left.mr-8(for="CB_3A7_3A12_Close")
+          p
+            | 3A7-3A12 закр      
+
+      // / column Привода герметизации
+
+      // column Привода Пов.Роликов, КВД, Ревун, Маяк
+      .column
+        .column__title-block
+          | Привода Пов.Роликов, КВД, Ревун, Маяк
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_4A4_CLOSE_" id="real_do_4A4_CLOSE_")
+          label.checkbox-label.left.mr-8(for="real_do_4A4_CLOSE_")
+          input.checkbox(type="checkbox" name="do_4A4_CLOSE_" id="do_4A4_CLOSE_")
+          label.checkbox-label.left.mr-8(for="do_4A4_CLOSE_")
+          p
+            | Прив. 4A4 открыть
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_4A4_UNCLOSE_" id="real_do_4A4_UNCLOSE_")
+          label.checkbox-label.left.mr-8(for="real_do_4A4_UNCLOSE_")
+          input.checkbox(type="checkbox" name="do_4A4_UNCLOSE_" id="do_4A4_UNCLOSE_")
+          label.checkbox-label.left.mr-8(for="do_4A4_UNCLOSE_")
+          p
+            | Прив. 4A4 закрыть
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_4A5_CLOSE_" id="real_do_4A5_CLOSE_")
+          label.checkbox-label.left.mr-8(for="real_do_4A5_CLOSE_")
+          input.checkbox(type="checkbox" name="do_4A5_CLOSE_" id="do_4A5_CLOSE_")
+          label.checkbox-label.left.mr-8(for="do_4A5_CLOSE_")
+          p
+            | Прив. 4A5 открыть
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_4A5_UNCLOSE_" id="real_do_4A5_UNCLOSE_")
+          label.checkbox-label.left.mr-8(for="real_do_4A5_UNCLOSE_")
+          input.checkbox(type="checkbox" name="do_4A5_UNCLOSE_" id="do_4A5_UNCLOSE_")
+          label.checkbox-label.left.mr-8(for="do_4A5_UNCLOSE_")
+          p
+            | Прив. 4A5 закрыть
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_4A6_CLOSE_" id="real_do_4A6_CLOSE_")
+          label.checkbox-label.left.mr-8(for="real_do_4A6_CLOSE_")
+          input.checkbox(type="checkbox" name="do_4A6_CLOSE_" id="do_4A6_CLOSE_")
+          label.checkbox-label.left.mr-8(for="do_4A6_CLOSE_")
+          p
+            | Прив. 4A6 открыть
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_4A6_UNCLOSE_" id="real_do_4A6_UNCLOSE_")
+          label.checkbox-label.left.mr-8(for="real_do_4A6_UNCLOSE_")
+          input.checkbox(type="checkbox" name="do_4A6_UNCLOSE_" id="do_4A6_UNCLOSE_")
+          label.checkbox-label.left.mr-8(for="do_4A6_UNCLOSE_")
+          p
+            | Прив. 4A6 закрыть
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_4A7_UnLock_" id="real_do_4A7_UnLock_")
+          label.checkbox-label.left.mr-8(for="real_do_4A7_UnLock_")
+          input.checkbox(type="checkbox" name="do_4A7_UnLock_" id="do_4A7_UnLock_")
+          label.checkbox-label.left.mr-8(for="do_4A7_UnLock_")
+          p
+            | Прив. 4A7 открыть
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_4A7_Lock_" id="real_do_4A7_Lock_")
+          label.checkbox-label.left.mr-8(for="real_do_4A7_Lock_")
+          input.checkbox(type="checkbox" name="do_4A7_Lock_" id="do_4A7_Lock_")
+          label.checkbox-label.left.mr-8(for="do_4A7_Lock_")
+          p
+            | Прив. 4A7 закрыть
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_5A2_OP_" id="real_do_5A2_OP_")
+          label.checkbox-label.left.mr-8(for="real_do_5A2_OP_")
+          input.checkbox(type="checkbox" name="do_5A2_OP_" id="do_5A2_OP_")
+          label.checkbox-label.left.mr-8(for="do_5A2_OP_")
+          p
+            | Прив. 5А2 открыть
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_5A2_CL_" id="real_do_5A2_CL_")
+          label.checkbox-label.left.mr-8(for="real_do_5A2_CL_")
+          input.checkbox(type="checkbox" name="do_5A2_CL_" id="do_5A2_CL_")
+          label.checkbox-label.left.mr-8(for="do_5A2_CL_")
+          p
+            | Прив. 5А2 закрыть
+
+      // / column Привода герметизации
+
+      // column buttons
+      .column.full-width.no-left.pt-140
+        button.btn-grey.btn-grey-big.w-180.no-left
+          | Старт импульс
+        button.btn-grey.btn-grey-big.w-190.no-left.mt-10
+          | Старт изменений
+
+  // tab content 3
+  .tabs__content.tabs__content__three
+
+    // subtab content for IN
+    .subtabs__content.subtabs__content__in
+
+      // column Входные сигналы от оборудования тран. тележ.
+      .column.mr-40
+        .column__title-block
+          | Вход-е сигналы от обор-я тран. тележ.
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_SQ1" id="real_di_SQ1")
+          label.checkbox-label.left.mr-8(for="real_di_SQ1")
+          input.checkbox(type="checkbox" name="di_SQ1" id="di_SQ1")
+          label.checkbox-label.left.mr-8(for="di_SQ1")
+          p
+            | Аварийный КВ позиции тележки в ГЗ
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_SQ2_SQ3" id="real_di_SQ2_SQ3")
+          label.checkbox-label.left.mr-8(for="real_di_SQ2_SQ3")
+          input.checkbox(type="checkbox" name="di_SQ2_SQ3" id="di_SQ2_SQ3")
+          label.checkbox-label.left.mr-8(for="di_SQ2_SQ3")
+          p
+            | Штатная позиция тележки 1
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_SQ4_SQ5" id="real_di_SQ4_SQ5")
+          label.checkbox-label.left.mr-8(for="real_di_SQ4_SQ5")
+          input.checkbox(type="checkbox" name="di_SQ4_SQ5" id="di_SQ4_SQ5")
+          label.checkbox-label.left.mr-8(for="di_SQ4_SQ5")
+          p
+            | Штатная позиция тележки 2
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_SQ6" id="real_di_SQ6")
+          label.checkbox-label.left.mr-8(for="real_di_SQ6")
+          input.checkbox(type="checkbox" name="di_SQ6" id="di_SQ6")
+          label.checkbox-label.left.mr-8(for="di_SQ6")
+          p
+            | КВ авар. поз. тележки на эстакаде
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_SQ8" id="real_di_SQ8")
+          label.checkbox-label.left.mr-8(for="real_di_SQ8")
+          input.checkbox(type="checkbox" name="di_SQ8" id="di_SQ8")
+          label.checkbox-label.left.mr-8(for="di_SQ8")
+          p
+            | Сейсмические фиксаторы опущены
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_SQ9" id="real_di_SQ9")
+          label.checkbox-label.left.mr-8(for="real_di_SQ9")
+          input.checkbox(type="checkbox" name="di_SQ9" id="di_SQ9")
+          label.checkbox-label.left.mr-8(for="di_SQ9")
+          p
+            | Сейсмические фиксаторы подняты
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_SQ7" id="real_di_SQ7")
+          label.checkbox-label.left.mr-8(for="real_di_SQ7")
+          input.checkbox(type="checkbox" name="di_SQ7" id="di_SQ7")
+          label.checkbox-label.left.mr-8(for="di_SQ7")
+          p
+            | Ручное управление тележки включено
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_XS1" id="real_di_XS1")
+          label.checkbox-label.left.mr-8(for="real_di_XS1")
+          input.checkbox(type="checkbox" name="di_XS1" id="di_XS1")
+          label.checkbox-label.left.mr-8(for="di_XS1")
+          p
+            | Тележка подключена к коробке 1(шлюз)
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_XS2" id="real_di_XS2")
+          label.checkbox-label.left.mr-8(for="real_di_XS2")
+          input.checkbox(type="checkbox" name="di_XS2" id="di_XS2")
+          label.checkbox-label.left.mr-8(for="di_XS2")
+          p
+            | Тележка подключ. к коробке 1(тамбур)
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_XS3" id="real_di_XS3")
+          label.checkbox-label.left.mr-8(for="real_di_XS3")
+          input.checkbox(type="checkbox" name="di_XS3" id="di_XS3")
+          label.checkbox-label.left.mr-8(for="di_XS3")
+          p
+            | Тележка подключ. к коробке 1(эстакада)
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_DrivePower_ON" id="real_di_DrivePower_ON")
+          label.checkbox-label.left.mr-8(for="real_di_DrivePower_ON")
+          input.checkbox(type="checkbox" name="di_DrivePower_ON" id="di_DrivePower_ON")
+          label.checkbox-label.left.mr-8(for="di_DrivePower_ON")
+          p
+            | Включение питания
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_Driwe_ON" id="real_di_Driwe_ON")
+          label.checkbox-label.left.mr-8(for="real_di_Driwe_ON")
+          input.checkbox(type="checkbox" name="di_Driwe_ON" id="di_Driwe_ON")
+          label.checkbox-label.left.mr-8(for="di_Driwe_ON")
+          p
+            | Преобразователь включен
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_Driwe_4" id="real_di_Driwe_4")
+          label.checkbox-label.left.mr-8(for="real_di_Driwe_4")
+          input.checkbox(type="checkbox" name="di_Driwe_4" id="di_Driwe_4")
+          label.checkbox-label.left.mr-8(for="di_Driwe_4")
+          p
+            | Состояние преобразователя
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_Power_4" id="real_di_Power_4")
+          label.checkbox-label.left.mr-8(for="real_di_Power_4")
+          input.checkbox(type="checkbox" name="di_Power_4" id="di_Power_4")
+          label.checkbox-label.left.mr-8(for="di_Power_4")
+          p
+            | Состояние автоматов                                                                                                                                               
+      // column Входные сигналы от оборудования тран. тележ.
+
+      // column Входные сигналы от оборудования откат ворот
+
+      .column.mr-40
+        .column__title-block
+          | Входные сигналы от обор. откат ворот
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_4S3" id="real_di_4S3")
+          label.checkbox-label.left.mr-8(for="real_di_4S3")
+          input.checkbox(type="checkbox" name="di_4S3" id="di_4S3")
+          label.checkbox-label.left.mr-8(for="di_4S3")
+          p
+            | Полотно 1 отк. ворот закрыто
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_4S5" id="real_di_4S5")
+          label.checkbox-label.left.mr-8(for="real_di_4S5")
+          input.checkbox(type="checkbox" name="di_4S5" id="di_4S5")
+          label.checkbox-label.left.mr-8(for="di_4S5")
+          p
+            | Полотно 2 отк. ворот закрыто
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_4S2" id="real_di_4S2")
+          label.checkbox-label.left.mr-8(for="real_di_4S2")
+          input.checkbox(type="checkbox" name="di_4S2" id="di_4S2")
+          label.checkbox-label.left.mr-8(for="di_4S2")
+          p
+            | Полотно 1 отк. ворот открыто
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_4S4" id="real_di_4S4")
+          label.checkbox-label.left.mr-8(for="real_di_4S4")
+          input.checkbox(type="checkbox" name="di_4S4" id="di_4S4")
+          label.checkbox-label.left.mr-8(for="di_4S4")
+          p
+            | Полотно 2 отк. ворот открыто
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_4S15" id="real_di_4S15")
+          label.checkbox-label.left.mr-8(for="real_di_4S15")
+          input.checkbox(type="checkbox" name="di_4S15" id="di_4S15")
+          label.checkbox-label.left.mr-8(for="di_4S15")
+          p
+            | Засов откатных ворот закрыт
+
+        // column входные сигналы от оборудования шлюза
+                                                                                                        
+        .column__title-block.mt-20
+          | Входные сигналы от обор. шлюза
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_4S7" id="real_di_4S7")
+          label.checkbox-label.left.mr-8(for="real_di_4S7")
+          input.checkbox(type="checkbox" name="di_4S7" id="di_4S7")
+          label.checkbox-label.left.mr-8(for="di_4S7")
+          p
+            | Откидной мост 1М1 поднят
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_4S9" id="real_di_4S9")
+          label.checkbox-label.left.mr-8(for="real_di_4S9")
+          input.checkbox(type="checkbox" name="di_4S9" id="di_4S9")
+          label.checkbox-label.left.mr-8(for="di_4S9")
+          p
+            | Откидной мост 1М2 поднят
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_4S11" id="real_di_4S11")
+          label.checkbox-label.left.mr-8(for="real_di_4S11")
+          input.checkbox(type="checkbox" name="di_4S11" id="di_4S11")
+          label.checkbox-label.left.mr-8(for="di_4S11")
+          p
+            | Откидной мост 2М1 поднят
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_4S15" id="real_di_4S15")
+          label.checkbox-label.left.mr-8(for="real_di_4S15")
+          input.checkbox(type="checkbox" name="di_4S15" id="di_4S15")
+          label.checkbox-label.left.mr-8(for="di_4S15")
+          p
+            | Откидной мост 2М2 поднят                                  
+
+        // column Входные сигналы от оборудования шлюза
+
+      // column ПУ 5
+      .column
+        .column__title-block
+          | ПУ 5
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_SB1" id="real_di_SB1")
+          label.checkbox-label.left.mr-8(for="real_di_SB1")
+          input.checkbox(type="checkbox" name="di_SB1" id="di_SB1")
+          label.checkbox-label.left.mr-8(for="di_SB1")
+          p
+            | Кнопка "В негермозону"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_SBA1" id="real_di_SBA1")
+          label.checkbox-label.left.mr-8(for="real_di_SBA1")
+          input.checkbox(type="checkbox" name="di_SBA1" id="di_SBA1")
+          label.checkbox-label.left.mr-8(for="di_SBA1")
+          p
+            | Кнопка "Аварийный стоп" тележки
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_SB2" id="real_di_SB2")
+          label.checkbox-label.left.mr-8(for="real_di_SB2")
+          input.checkbox(type="checkbox" name="di_SB2" id="di_SB2")
+          label.checkbox-label.left.mr-8(for="di_SB2")
+          p
+            | Кнопка "В гермозону"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_speed_1" id="real_di_speed_1")
+          label.checkbox-label.left.mr-8(for="real_di_speed_1")
+          input.checkbox(type="checkbox" name="di_speed_1" id="di_speed_1")
+          label.checkbox-label.left.mr-8(for="di_speed_1")
+          p
+            | Переключатель "Скорость 1"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_speed_2" id="real_di_speed_2")
+          label.checkbox-label.left.mr-8(for="real_di_speed_2")
+          input.checkbox(type="checkbox" name="di_speed_2" id="di_speed_2")
+          label.checkbox-label.left.mr-8(for="di_speed_2")
+          p
+            | Переключатель "Скорость 2"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_speed_3" id="real_di_speed_3")
+          label.checkbox-label.left.mr-8(for="real_di_speed_3")
+          input.checkbox(type="checkbox" name="di_speed_3" id="di_speed_3")
+          label.checkbox-label.left.mr-8(for="di_speed_3")
+          p
+            | Переключатель "Скорость 3"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_speed_4" id="real_di_speed_4")
+          label.checkbox-label.left.mr-8(for="real_di_speed_4")
+          input.checkbox(type="checkbox" name="di_speed_4" id="di_speed_4")
+          label.checkbox-label.left.mr-8(for="di_speed_4")
+          p
+            | Переключатель "Скорость 4"
+
+      // / column ПУ 5
+
+      // column ПУ 6
+
+      .column.mr-40
+        .column__title-block
+          | ПУ 6
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_4SB1" id="real_di_4SB1")
+          label.checkbox-label.left.mr-8(for="real_di_4SB1")
+          input.checkbox(type="checkbox" name="di_4SB1" id="di_4SB1")
+          label.checkbox-label.left.mr-8(for="di_4SB1")
+          p
+            | Кнопка "Открыть"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_4SB2" id="real_di_4SB2")
+          label.checkbox-label.left.mr-8(for="real_di_4SB2")
+          input.checkbox(type="checkbox" name="di_4SB2" id="di_4SB2")
+          label.checkbox-label.left.mr-8(for="di_4SB2")
+          p
+            | Кнопка "Стоп"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_4SB3" id="real_di_4SB3")
+          label.checkbox-label.left.mr-8(for="real_di_4SB3")
+          input.checkbox(type="checkbox" name="di_4SB3" id="di_4SB3")
+          label.checkbox-label.left.mr-8(for="di_4SB3")
+          p
+            | Кнопка "Закрыть'
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_4SB4_4SB8" id="real_di_4SB4_4SB8")
+          label.checkbox-label.left.mr-8(for="real_di_4SB4_4SB8")
+          input.checkbox(type="checkbox" name="di_4SB4_4SB8" id="di_4SB4_4SB8")
+          label.checkbox-label.left.mr-8(for="di_4SB4_4SB8")
+          p
+            | Кнопка "Тест ламп"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_4SBA1_2" id="real_di_4SBA1_2")
+          label.checkbox-label.left.mr-8(for="real_di_4SBA1_2")
+          input.checkbox(type="checkbox" name="di_4SBA1_2" id="di_4SBA1_2")
+          label.checkbox-label.left.mr-8(for="di_4SBA1_2")
+          p
+            | Аварийный стоп
+
+      // / column ПУ 6
+
+      // column ПУ 7
+      .column
+        .column__title-block
+          | ПУ 7
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_4SB5" id="real_di_4SB5")
+          label.checkbox-label.left.mr-8(for="real_di_4SB5")
+          input.checkbox(type="checkbox" name="di_4SB5" id="di_4SB5")
+          label.checkbox-label.left.mr-8(for="di_4SB5")
+          p
+            | Кнопка "Открыть"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_4SB6" id="real_di_4SB6")
+          label.checkbox-label.left.mr-8(for="real_di_4SB6")
+          input.checkbox(type="checkbox" name="di_4SB6" id="di_4SB6")
+          label.checkbox-label.left.mr-8(for="di_4SB6")
+          p
+            | Кнопка "Стоп"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_di_4SB7" id="real_di_4SB7")
+          label.checkbox-label.left.mr-8(for="real_di_4SB7")
+          input.checkbox(type="checkbox" name="di_4SB7" id="di_4SB7")
+          label.checkbox-label.left.mr-8(for="di_4SB7")
+          p
+            | Кнопка "Закрыть'
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="checkbox-5" id="checkbox-5")
+          label.checkbox-label.left.mr-8(for="checkbox-5")
+          input.checkbox(type="checkbox" name="checkbox-6" id="checkbox-6")
+          label.checkbox-label.left.mr-8(for="checkbox-6")
+          p
+            | Кнопка "Аварийный стоп"
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="checkbox-7" id="checkbox-7")
+          label.checkbox-label.left.mr-8(for="checkbox-7")
+          input.checkbox(type="checkbox" name="checkbox-8" id="checkbox-8")
+          label.checkbox-label.left.mr-8(for="checkbox-8")
+          p
+            | Тест ламп
+
+      // / column ПУ 7
+
+    // subtab content for OUTS
+    .subtabs__content.subtabs__content__outs
+
+      // column Выходные сигналы ПТС (шлюз)
+      .column.mr-40
+        .column__title-block
+          | Выходные сигналы ПТС (шлюз)
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_1M1_lift_" id="real_do_1M1_lift_")
+          label.checkbox-label.left.mr-8(for="real_do_1M1_lift_")
+          input.checkbox(type="checkbox" name="do_1M1_lift_" id="do_1M1_lift_")
+          label.checkbox-label.left.mr-8(for="do_1M1_lift_")
+          p
+            | 1М1 поднять
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_1M1_lower_" id="real_do_1M1_lower_")
+          label.checkbox-label.left.mr-8(for="real_do_1M1_lower_")
+          input.checkbox(type="checkbox" name="do_1M1_lower_" id="do_1M1_lower_")
+          label.checkbox-label.left.mr-8(for="do_1M1_lower_")
+          p
+            | 1М1 опустить
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_1M2_lift_" id="real_do_1M2_lift_")
+          label.checkbox-label.left.mr-8(for="real_do_1M2_lift_")
+          input.checkbox(type="checkbox" name="do_1M2_lift_" id="do_1M2_lift_")
+          label.checkbox-label.left.mr-8(for="do_1M2_lift_")
+          p
+            | 1М2 поднять
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_1M2_lower_" id="real_do_1M2_lower_")
+          label.checkbox-label.left.mr-8(for="real_do_1M2_lower_")
+          input.checkbox(type="checkbox" name="do_1M2_lower_" id="do_1M2_lower_")
+          label.checkbox-label.left.mr-8(for="do_1M2_lower_")
+          p
+            | 1М2 опустить
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_2M1_lift_" id="real_do_2M1_lift_")
+          label.checkbox-label.left.mr-8(for="real_do_2M1_lift_")
+          input.checkbox(type="checkbox" name="do_2M1_lift_" id="do_2M1_lift_")
+          label.checkbox-label.left.mr-8(for="do_2M1_lift_")
+          p
+            | 2М1 поднять
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_2M1_lower_" id="real_do_2M1_lower_")
+          label.checkbox-label.left.mr-8(for="real_do_2M1_lower_")
+          input.checkbox(type="checkbox" name="do_2M1_lower_" id="do_2M1_lower_")
+          label.checkbox-label.left.mr-8(for="do_2M1_lower_")
+          p
+            | 2М1 опустить
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_2M2_lift_" id="real_do_2M2_lift_")
+          label.checkbox-label.left.mr-8(for="real_do_2M2_lift_")
+          input.checkbox(type="checkbox" name="do_2M2_lift_" id="do_2M2_lift_")
+          label.checkbox-label.left.mr-8(for="do_2M2_lift_")
+          p
+            | 2М2 поднять
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_2M2_lower_" id="real_do_2M2_lower_")
+          label.checkbox-label.left.mr-8(for="real_do_2M2_lower_")
+          input.checkbox(type="checkbox" name="do_2M2_lower_" id="do_2M2_lower_")
+          label.checkbox-label.left.mr-8(for="do_2M2_lower_")
+          p
+            | 2М2 опустить       
+
+        // space field
+        .column__field
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="CB_1M_UP" id="CB_1M_UP")
+          label.checkbox-label.left.mr-8(for="CB_1M_UP")
+
+          p
+            | 1М поднять
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="CB_1M_DOWN" id="CB_1M_DOWN")
+          label.checkbox-label.left.mr-8(for="CB_1M_DOWN")
+          p
+            | 1М опустить
+
+        // space field
+        .column__field
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="CB_2M_UP" id="CB_2M_UP")
+          label.checkbox-label.left.mr-8(for="CB_2M_UP")
+
+          p
+            | 2М поднять
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="CB_2M_DOWN" id="CB_2M_DOWN")
+          label.checkbox-label.left.mr-8(for="CB_2M_DOWN")
+          p
+            | 2М опустить
+
+      // / column Выходные сигналы ПТС (траспортная тележка)
+
+      .column.mr-40
+        .column__title-block
+          | Выход-е сигналы ПТС (траспорт. тележка)
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_YC1_" id="real_do_YC1_")
+          label.checkbox-label.left.mr-8(for="real_do_YC1_")
+          input.checkbox(type="checkbox" name="do_YC1_" id="do_YC1_")
+          label.checkbox-label.left.mr-8(for="do_YC1_")
+          p
+            | YC1 муфту включить
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_YB1_Trolley_" id="real_do_YB1_Trolley_")
+          label.checkbox-label.left.mr-8(for="real_do_YB1_Trolley_")
+          input.checkbox(type="checkbox" name="do_YB1_Trolley_" id="do_YB1_Trolley_")
+          label.checkbox-label.left.mr-8(for="do_YB1_Trolley_")
+          p
+            | YB1 колодочн. торм. открыть
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_Main_Light_" id="real_do_Main_Light_")
+          label.checkbox-label.left.mr-8(for="real_do_Main_Light_")
+          input.checkbox(type="checkbox" name="do_Main_Light_" id="do_Main_Light_")
+          label.checkbox-label.left.mr-8(for="do_Main_Light_")
+          p
+            | Освещение включить
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_M1_drive_F_" id="real_do_M1_drive_F_")
+          label.checkbox-label.left.mr-8(for="real_do_M1_drive_F_")
+          input.checkbox(type="checkbox" name="do_M1_drive_F_" id="do_M1_drive_F_")
+          label.checkbox-label.left.mr-8(for="do_M1_drive_F_")
+          p
+            | М1 вперед
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_M1_drive_B_" id="real_do_M1_drive_B_")
+          label.checkbox-label.left.mr-8(for="real_do_M1_drive_B_")
+          input.checkbox(type="checkbox" name="do_M1_drive_B_" id="do_M1_drive_B_")
+          label.checkbox-label.left.mr-8(for="do_M1_drive_B_")
+          p
+            | М1 назад
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_M1_drive_0_" id="real_do_M1_drive_0_")
+          label.checkbox-label.left.mr-8(for="real_do_M1_drive_0_")
+          input.checkbox(type="checkbox" name="do_M1_drive_0_" id="do_M1_drive_0_")
+          label.checkbox-label.left.mr-8(for="do_M1_drive_0_")
+          p
+            | Управление "Скорость 0" 
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_M1_drive_1_" id="real_do_M1_drive_1_")
+          label.checkbox-label.left.mr-8(for="real_do_M1_drive_1_")
+          input.checkbox(type="checkbox" name="do_M1_drive_1_" id="do_M1_drive_1_")
+          label.checkbox-label.left.mr-8(for="do_M1_drive_1_")
+          p
+            | Управление "Скорость 1" 
+
+      // / column Выходные сигналы ПТС (траспортная тележка)
+
+      // column Выходные сигналы ПТС (откатные ворота)
+      .column
+        .column__title-block
+          | Выход-е сигналы ПТС (откатные ворота)
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_6A1_OP_" id="real_do_6A1_OP_")
+          label.checkbox-label.left.mr-8(for="real_do_6A1_OP_")
+          input.checkbox(type="checkbox" name="do_6A1_OP_" id="do_6A1_OP_")
+          label.checkbox-label.left.mr-8(for="do_6A1_OP_")
+          p
+            | 6A1-М вперед
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_6A1_CL_" id="real_do_6A1_CL_")
+          label.checkbox-label.left.mr-8(for="real_do_6A1_CL_")
+          input.checkbox(type="checkbox" name="do_6A1_CL_" id="do_6A1_CL_")
+          label.checkbox-label.left.mr-8(for="do_6A1_CL_")
+          p
+            | 6A1-М назад
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_6A2_OP_" id="real_do_6A2_OP_")
+          label.checkbox-label.left.mr-8(for="real_do_6A2_OP_")
+          input.checkbox(type="checkbox" name="do_6A2_OP_" id="do_6A2_OP_")
+          label.checkbox-label.left.mr-8(for="do_6A2_OP_")
+          p
+            | 6A2-М вперед
+
+        // field
+        .column__field
+          input.checkbox(type="checkbox" name="real_do_6A2_CL_" id="real_do_6A2_CL_")
+          label.checkbox-label.left.mr-8(for="real_do_6A2_CL_")
+          input.checkbox(type="checkbox" name="do_6A2_CL_" id="do_6A2_CL_")
+          label.checkbox-label.left.mr-8(for="do_6A2_CL_")
+          p
+            | 6A2-М назад
+
+      // / column Выходные сигналы ПТС (откатные ворота)
+
+      // column buttons
+      .column.full-width.no-left.pt-140
+        button.btn-grey.btn-grey-big.w-180.no-left
+          | Старт импульс
+        button.btn-grey.btn-grey-big.w-190.no-left.mt-10
+          | Старт изменений
