@@ -14,6 +14,14 @@ $('.link__auth').click(function(){
     });	
 });
 
+$('.link__no-connect').click(function(){
+	$('.no-connection').bPopup({
+    	closeClass:'icon__close',
+    	amsl: 0,
+    	positionStyle: 'fixed',
+    });	
+});
+
 // main tabs
 
 $('.tabs__content__two, .tabs__content__three').hide();
