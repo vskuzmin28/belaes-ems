@@ -1,0 +1,88 @@
+.auth {
+	border-radius: 30%;
+	display: none;
+	position: absolute;
+	width: 300px;
+	height: 320px;
+	background: #1f253d url('../img/logo.png') no-repeat bottom center;
+	text-align: center;
+	color: #fff;
+
+	h2 {
+		margin-bottom: 30px;
+		font: 20px @pt-bold;
+		text-transform: uppercase;
+	}
+
+	input, button {
+		//display: none;
+	}
+
+	input[type="password"] {
+		margin-top: 50px;
+		padding: 0 10px;
+		width: 160px;
+		height: 30px;
+		background: @blue-dark;
+		border: 1px solid @blue-light;
+		border-radius: 4px;
+		content: "******";
+		font: 14px @pt-regular;
+		color: @white;
+		margin-bottom: 20px;
+	}
+
+	input[type="password"]::-webkit-input-placeholder {
+		font: 14px @pt-italic;
+		color: @white;
+
+	}
+
+	input[type="password"]:invalid {
+		border-color: @red;
+	}
+
+	input[type="password"]:valid:required {
+		border-color: @green !important;
+	}
+
+	input[type="password"]:valid:required + button[type="submit"] {
+		background: @green;
+		border-color: @green;
+	}
+
+	button[type="submit"] {
+		background: @blue-light;
+		border: 1px solid @blue-light;
+		border-radius: 4px;
+		color: @white;
+
+		&:hover {
+			background: @blue-dark;
+		}
+
+	}
+
+}
+
+// denied
+
+.auth__denied {
+	display: none;
+	margin-top: 110px;
+	font: 24px @pt-regular;
+	color: @white;
+	text-align: center;
+}
+
+// copy icon, icon close
+
+.auth__close {
+	top: -200px;
+	right: -340px;
+	position: absolute;
+	display: block;
+	width: 25px;
+	height: 25px;
+	background: url('../img/close.png') no-repeat;
+}

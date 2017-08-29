@@ -1,0 +1,11 @@
+.auth
+	a.auth__close(href="#" title="")
+	form(action="/" method="post")
+		h2
+			|	Авторизация
+		input(type="password" name="pw" pattern=".{6,}" placeholder="Введите пароль" required)
+		button.btn.btn-grey-big.w-120.center(type="submit")
+			|	Войти
+
+	.auth__denied
+		|	Неверный пароль!
