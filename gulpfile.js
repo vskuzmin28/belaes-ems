@@ -68,6 +68,8 @@ gulp.task('watch', ['browser-sync'], function() {
 	gulp.watch('dev/**/*.less', ['less']);
 	gulp.watch('pub/**/*.css', browserSync.reload);
 	gulp.watch('pub/pages/*.html', browserSync.reload);
+	gulp.watch('dev/img/*.png', browserSync.reload);
+	gulp.watch('dev/js/*.js', browserSync.reload);
 })
 
 // default task (watch + browser sync)

@@ -13,6 +13,7 @@
 	@import '../blocks/block-title-zones/title-zones.less';
 	@import '../blocks/block-navigation/navigation.less';
 	@import '../blocks/block-debug-in-outs/debug-in-outs.less';
+	@import '../blocks/block-auth/auth.less';
 
 }
 
@@ -355,9 +356,10 @@ button {
 	.btn-grey-big {
 		height: 34px;
 		font: 14px @pt-bold;
-		color: @white;
+		color: @white !important;
 		text-transform: uppercase;
 		line-height: 34px;
+		background: #000;
 
 		&:hover, &:focus {
 			color: @white;

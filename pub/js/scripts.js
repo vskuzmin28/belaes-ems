@@ -6,6 +6,14 @@ $('.icon__menu').click(function(){
     });	
 });
 
+$('.link__auth').click(function(){
+	$('.auth').bPopup({
+    	closeClass:'auth__close',
+    	amsl: 0,
+    	positionStyle: 'fixed',
+    });	
+});
+
 // main tabs
 
 $('.tabs__content__two, .tabs__content__three').hide();
@@ -54,13 +62,3 @@ $('.subtab__two').click(function(){
 	$('.subtab__two').addClass('subtab__active');
 	$('.subtab__one').removeClass('subtab__active');
 });
-
-//checkbox
-
-$('.checkbox__true').hide();
-
-$('.checkbox').click(function(){
-	$(this).click(function(){
-		$('.checkbox__true').show();
-	})
-})

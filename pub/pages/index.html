@@ -17,7 +17,7 @@
       <div class="column__left">
         <!-- header-->
         <div class="header">
-          <!-- logotype--><a class="header__logo" href="#" title=""><img src="../img/logo.png" alt=""></a>
+          <!-- logotype--><a class="header__logo link__auth" href="#" title=""><img src="../img/logo.png" alt=""></a>
           <!-- border right-->
           <div class="header__border__right"></div>
           <!-- about screen-->
@@ -241,6 +241,14 @@
       </div>
     </div>
   </body>
+  <div class="auth"><a class="auth__close" href="#" title=""></a>
+    <form action="/" method="post">
+      <h2>	Авторизация</h2>
+      <input type="password" name="pw" pattern=".{6,}" placeholder="Введите пароль" required>
+      <button class="btn btn-grey-big w-120 center" type="submit">	Войти</button>
+    </form>
+    <div class="auth__denied">	Неверный пароль!</div>
+  </div>
   <div class="navigation"><a class="navigation__close" href="#" title=""></a>
     <h2>	Навигация</h2>
     <ul>
