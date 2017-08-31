@@ -321,6 +321,9 @@ button {
   .pt-140 {
     padding-top: 140px;
   }
+  .no-margin-right {
+    margin-right: 0 !important;
+  }
   img.about__bg {
     display: block;
     margin: 6% auto 6% auto;
@@ -652,51 +655,6 @@ input:checked.checkbox + label.checkbox-label:before {
   content: "";
   border-radius: 3px;
 }
-.header {
-  margin: 0 0 0 0px;
-  height: 38px;
-  overflow: hidden;
-}
-.header__logo {
-  margin-top: 4px;
-  display: block;
-  float: left;
-}
-.header__logo img {
-  width: 126px;
-  height: 26px;
-}
-.header__border__right {
-  display: block;
-  margin: 0 10px;
-  float: left;
-  width: 1px;
-  height: 38px;
-  background: #50597b;
-}
-.header__about-screen {
-  margin-top: 6px;
-  margin-left: 0px;
-  height: auto;
-  text-align: left;
-  float: left;
-}
-.header__about-screen p {
-  margin-top: -5px;
-  margin-bottom: 0;
-  font: 14px 'pt_sansregular';
-  color: #fff;
-  line-height: 21px;
-}
-.icon__menu {
-  margin-top: 9px;
-  margin-right: 3px;
-  float: right;
-  cursor: pointer;
-  width: 92px;
-  height: 26px;
-  background: url('../img/icon-menu.png') no-repeat right;
-}
 .gateway {
   display: block;
   margin-top: 177px;
@@ -820,6 +778,51 @@ input:checked.checkbox + label.checkbox-label:before {
 .track-mini-rails-left-right__top {
   bottom: 40px;
 }
+.header {
+  margin: 0 0 0 0px;
+  height: 38px;
+  overflow: hidden;
+}
+.header__logo {
+  margin-top: 4px;
+  display: block;
+  float: left;
+}
+.header__logo img {
+  width: 126px;
+  height: 26px;
+}
+.header__border__right {
+  display: block;
+  margin: 0 10px;
+  float: left;
+  width: 1px;
+  height: 38px;
+  background: #50597b;
+}
+.header__about-screen {
+  margin-top: 6px;
+  margin-left: 0px;
+  height: auto;
+  text-align: left;
+  float: left;
+}
+.header__about-screen p {
+  margin-top: -5px;
+  margin-bottom: 0;
+  font: 14px 'pt_sansregular';
+  color: #fff;
+  line-height: 21px;
+}
+.icon__menu {
+  margin-top: 9px;
+  margin-right: 3px;
+  float: right;
+  cursor: pointer;
+  width: 92px;
+  height: 26px;
+  background: url('../img/icon-menu.png') no-repeat right;
+}
 .block__indication-plc {
   text-align: center;
   height: 180px;
@@ -842,6 +845,112 @@ input:checked.checkbox + label.checkbox-label:before {
 }
 .block__indication-plc__icon__false {
   background: url('../img/false-plc.png') no-repeat !important;
+}
+.keypad {
+  left: 50%;
+  margin-left: -200px;
+  top: 50%;
+  margin-top: 100px;
+  padding: 4px 10px 0px 10px;
+  position: absolute;
+  display: block;
+  width: 372px;
+  height: 118px;
+  background: #394264;
+  border-radius: 6px;
+  z-index: 99999;
+  display: none;
+  border: 1px solid #444e76;
+}
+.keypad__button {
+  margin: 6px 6px 0 0;
+  width: 48px;
+  height: 48px;
+  background: #1f253d;
+  border-radius: 6px;
+}
+.keypad__button:before {
+  margin: 1px 0 0 1px;
+  position: absolute;
+  content: "";
+  width: 44px;
+  height: 41px;
+  background: #394264;
+  border-radius: 6px;
+  border: 1px solid #444e76;
+  font: 24px 'pt_sansbold';
+  color: #fff;
+  text-align: center;
+  line-height: 44px;
+}
+.keypad__button:active:before,
+.keypad__button:focus:before {
+  background: #1f253d;
+}
+.keypad__button:nth-child(1):before {
+  content: "1";
+}
+.keypad__button:nth-child(2):before {
+  content: "2";
+}
+.keypad__button:nth-child(3):before {
+  content: "3";
+}
+.keypad__button:nth-child(4):before {
+  content: "4";
+}
+.keypad__button:nth-child(5):before {
+  content: "5";
+}
+.keypad__button:nth-child(5):before {
+  content: "5";
+}
+.keypad__button:nth-child(5):before {
+  content: "5";
+}
+.keypad__button:nth-child(6):before {
+  content: "6";
+}
+.keypad__button:nth-child(7):before {
+  content: "7";
+}
+.keypad__button:nth-child(8):before {
+  content: "8";
+}
+.keypad__button:nth-child(9):before {
+  content: "9";
+}
+.keypad__button:nth-child(10):before {
+  content: "0";
+}
+.keypad__button__clean {
+  margin: 14px 0 0 14px;
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  background: url('../img/icon-clean.png') no-repeat;
+}
+.keypad__button__delete {
+  margin: 14px 0 0 11px;
+  position: absolute;
+  width: 24px;
+  height: 18px;
+  background: url('../img/icon-delete.png') no-repeat;
+}
+.keypad__close {
+  margin: -57px 0 0 0;
+  position: absolute;
+  right: -54px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  z-index: 1;
+}
+.keypad__close img {
+  display: block;
+  margin: 18px 0 0 16px;
+  width: 16px;
+  height: 16px;
 }
 .block__mini-journal {
   display: block;

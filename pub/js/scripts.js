@@ -22,6 +22,14 @@ $('.link__no-connect').click(function(){
     });	
 });
 
+$('.auth__elements input').click(function(){
+	$('.keypad').show();
+});
+
+$('.keypad__close').click(function(){
+	$('.keypad').hide();
+});
+
 // main tabs
 
 $('.tabs__content__two, .tabs__content__three').hide();
