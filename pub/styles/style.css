@@ -349,6 +349,9 @@ button {
   .display-none {
     display: none;
   }
+  .free-space-30 {
+    height: 30px;
+  }
 }
 @media only screen and (min-width: 1124px) {
   .conteiner {
@@ -362,6 +365,26 @@ button {
     padding: 16px;
     overflow: hidden;
   }
+}
+.block__analogs table {
+  margin-top: -10px;
+}
+.block__analogs table tr:nth-child(1) td {
+  width: 90px;
+  text-align: center !important;
+  line-height: 0px !important;
+  height: 10px;
+  padding-bottom: 10px;
+}
+.block__analogs table tr td {
+  padding-top: 10px;
+  width: 90px;
+  text-align: center !important;
+  vertical-align: middle;
+  height: 20px;
+}
+.block__analogs table tr td p {
+  font-size: 14px;
 }
 .auth {
   border-radius: 30%;
@@ -429,26 +452,6 @@ button {
   width: 25px;
   height: 25px;
   background: url('../img/close.png') no-repeat;
-}
-.block__analogs table {
-  margin-top: -10px;
-}
-.block__analogs table tr:nth-child(1) td {
-  width: 90px;
-  text-align: center !important;
-  line-height: 0px !important;
-  height: 10px;
-  padding-bottom: 10px;
-}
-.block__analogs table tr td {
-  padding-top: 10px;
-  width: 90px;
-  text-align: center !important;
-  vertical-align: middle;
-  height: 20px;
-}
-.block__analogs table tr td p {
-  font-size: 14px;
 }
 .block__big-journal {
   position: absolute;
@@ -961,6 +964,38 @@ input:checked.checkbox + label.checkbox-label:before {
   margin: 18px 0 0 16px;
   width: 16px;
   height: 16px;
+}
+.auth__elements input::-webkit-input-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+.auth__elements input::-moz-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+.auth__elements input:-moz-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+.auth__elements input:-ms-input-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+.auth__elements input:focus::-webkit-input-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.auth__elements input:focus::-moz-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.auth__elements input:focus:-moz-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.auth__elements input:focus:-ms-input-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 .block__mini-journal {
   display: block;
