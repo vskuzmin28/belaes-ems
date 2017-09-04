@@ -1,3 +1,5 @@
+// menu
+
 $('.icon__menu').click(function(){
 	$('.navigation').bPopup({
     	closeClass:'navigation__close',
@@ -5,6 +7,8 @@ $('.icon__menu').click(function(){
     	positionStyle: 'fixed',
     });	
 });
+
+// authorization
 
 $('.link__auth').click(function(){
 	$('.auth').bPopup({
@@ -14,6 +18,8 @@ $('.link__auth').click(function(){
     });	
 });
 
+// plc no connect
+
 $('.link__no-connect').click(function(){
 	$('.no-connection').bPopup({
     	closeClass:'icon__close',
@@ -22,9 +28,13 @@ $('.link__no-connect').click(function(){
     });	
 });
 
+//  keypad
+
 $('.auth__elements input').click(function(){
 	$('.keypad').show();
 });
+
+// keypad close
 
 $('.keypad__close').click(function(){
 	$('.keypad').hide();
