@@ -23,7 +23,22 @@
 				color: #fff;
 				text-decoration: none;
 			}
+
+			p {
+				font: 12px @pt-regular;
+
+			}
+
 		}
+	}
+
+	hr {
+		margin: 8px 5%;
+		display: block;
+		width: auto;
+		border: 0;
+		height: 1px;
+		background: @blue-light;
 	}
 
 }
@@ -37,3 +52,32 @@
 	height: 25px;
 	background: url('../img/close.png') no-repeat;
 }
+
+
+.navigation__status-auth, .navigation__status-auth__exit {
+	display: inline-block;
+	height: 14px;
+	font-size: 14px !important;
+}
+
+.navigation__status-auth {
+
+}
+
+.navigation__status-auth__exit {
+	padding: 0;
+	width: auto;
+	background: 0;
+	border: 0;
+	outline: 0;
+	color: @white;
+	font: 14px @pt-regular;
+	text-decoration: underline;
+
+	&:hover {
+		font-family: @pt-bold;
+		text-decoration: none;
+	}
+
+}
+
