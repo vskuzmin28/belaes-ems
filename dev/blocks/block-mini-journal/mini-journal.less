@@ -23,8 +23,8 @@
 
 	.block__mini-journal__body__messages {
 		height: @height-block-mini-journal-body-messages;
-		overflow-y: scroll;
-		margin: 6px 6px 10px 10px;
+		overflow: hidden;
+		margin: 6px 0px 20px 10px;
 		background: @blue-dark;
 	}
 
@@ -37,6 +37,11 @@
 		border-bottom: 1px solid @blue;
 		font-size: 15px;
 		line-height: 15px;
+
+		&:last-child {
+			//border: 0 !important;
+		}
+
 	}
 
 	.block__mini-journal__body__btn {
