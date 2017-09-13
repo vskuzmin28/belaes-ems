@@ -70,6 +70,7 @@
 
 	.gateway__ngz-true {
 		background: url('../img/gateway__gz.png') no-repeat;
+		z-index: 101;
 	}
 
 	// -- GZ
@@ -83,6 +84,7 @@
 
 	.gateway__gz-true {
 		background: url('../img/gateway__ngz.png') no-repeat;
+		z-index: 101;
 	}
 
 	// /gates
@@ -185,4 +187,25 @@
 
 	.track-mini-rails-left-right__top {
 		bottom: 40px;
+	}
+
+	// gateway parts
+
+	.gateway__body__part-left {
+		margin: 43px 10px 10px -8px;
+		position: absolute;
+		width: 8px;
+		height: 88px;
+		background: #fff;
+		z-index: 100;
+	}
+
+	.gateway__body__part-right {
+		margin: 43px 10px 10px 168px;		
+		position: absolute;
+		width: 9px;
+		height: 88px;
+		background: #fff;
+		border-right: 4px solid @blue-dark;
+		z-index: 100;		
 	}
