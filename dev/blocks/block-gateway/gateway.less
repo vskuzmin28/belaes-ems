@@ -125,13 +125,14 @@
 		height: 34px;
 		background: url('../img/truck.png') no-repeat;
 		transition: all 2s linear !important;
+		z-index: 99 !important;
 	}
 
 	// canvas
 
 	.gateway__canvas__false {
-		right: 20%;
-		bottom: 1.1%;
+		right: -132%;
+		bottom: -1.1%;
 		position: absolute;
 		width: 31px;
 		height: 117px;
@@ -150,23 +151,23 @@
 	}
 
 	.gateway__canvas__true__top {
-		right: 20%;
+		right: -135%;
 		bottom: 4.1%;
 		position: absolute;
 		width: 12px;
 		height: 95px;
 		background: url('../img/gateway__canvas__true__top.png') no-repeat;
-		z-index: 999;		
+		z-index: 30 !important;
 	}
 
 	.gateway__canvas__true__bottom {
-		right: 20%;
-		bottom: 0.6%;
+		right: -123.0%;
+		bottom: -1.0%;
 		position: absolute;
-		width: 31px;
+		width: 14px;
 		height: 112px;
 		background: url('../img/gateway__canvas__true__bottom.png') no-repeat;
-		z-index: 999;		
+		z-index: 100;		
 	}
 
 	// truck positions
