@@ -22,6 +22,14 @@ $('.link__no-connect').click(function(){
     });	
 });
 
+$('.test-socket').click(function(){
+	$('.local-connection-error').bPopup({
+    	closeClass:'icon__close',
+    	amsl: 0,
+    	positionStyle: 'fixed',
+    });	
+});
+
 $('.auth__elements input').click(function(){
 	$('.keypad').show();
 });
