@@ -6,15 +6,7 @@
 @media only screen and (min-width : 1024px) {
 
 	@import '../blocks/block-header/header.less';
-	@import '../blocks/block-current-operation/cur-operation.less';
-	@import '../blocks/block-gateway/gateway.less';
-	@import '../blocks/block-mini-journal/mini-journal.less';
-	@import '../blocks/block-indication-plc/indication-plc.less';
-	@import '../blocks/block-analogs/analogs.less';
-	@import '../blocks/block-cabinets/cabinets.less';
-	@import '../blocks/block-title-zones/title-zones.less';
-	@import '../blocks/block-navigation/navigation.less';
-	@import '../blocks/block-debug-in-outs/debug-in-outs.less';
+
 	@import '../blocks/block-auth/auth.less';
 	@import '../blocks/block-no-connection/no-connection.less';
 	@import '../blocks/block-local-connection-error/local-connection-error.less';
@@ -527,6 +519,45 @@ button {
 
 	.free-space-30 {
 		height: 30px;
+	}
+
+	// program
+
+	.program {
+		height: auto;
+	}
+
+	.program__cabinet {
+		margin-top: 20px;
+		padding: 10px;
+		height: auto;
+		position: relative;
+		border: 1px solid @blue-light;
+	}
+
+	.program__cabinet__title {
+		top: -17px;
+		position: absolute;
+		width: 8%;
+		height: 34px;
+		background: @blue-dark;
+		font: 16px @pt-bold;
+		color: @white;
+		text-align: center;
+		line-height: 34px;
+		z-index: 999;
+	}
+
+	.program__cabinet__indications {
+		margin: 0 10px;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		height: auto;
+		overflow: hidden;
+	}
+
+	.program__cabinet__indications__title {
+		
 	}
 
 }

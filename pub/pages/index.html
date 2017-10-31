@@ -36,239 +36,48 @@
     </div>
     <!-- conteiner-->
     <div class="conteiner">
-      <!-- column left-->
-      <div class="column__left">
-        <!-- header-->
-        <div class="header">
-          <!-- logotype--><a class="header__logo link__auth" href="#" title=""><img src="../img/logo.png" alt=""></a>
-          <!-- border right-->
-          <div class="header__border__right"></div>
-          <!-- about screen-->
-          <div class="header__about-screen display-none">
-            <p> Белорусская АЭС</p>
-            <p> Шкаф локального управления транспортным шлюзом</p>
-          </div>
-          <!-- system clock-->
-          <div class="system-clock link__no-connect">
-            <p> 04 сентября 2017г.</p>
-            <p> 14:25:43</p>
-          </div>
-          <!-- icon menu-->
-          <div class="icon__menu"></div>
+      <!-- header-->
+      <div class="header">
+        <!-- logotype--><a class="header__logo link__auth" href="#" title=""><img src="../img/logo.png" alt=""></a>
+        <!-- border right-->
+        <div class="header__border__right"></div>
+        <!-- about screen-->
+        <div class="header__about-screen">
+          <p> Белорусская АЭС</p>
+          <p> Тестовая программа  испытаний на электромагнитную совместимость</p>
         </div>
-        <!-- block current operation-->
-        <div class="current-operation">
-          <p><span>	Текущая операция:</span>	Тележка стоит в не гермозоне возле шлюза (тамбуре)	</p>
-        </div>
-        <!-- block gateway-->
-        <div class="gateway">
-          <div class="gateway__body">
-            <!-- parts-->
-            <div class="gateway__body__part-left"></div>
-            <div class="gateway__body__part-right"></div>
-            <div class="gateway__ngz gateway__ngz-false"></div>
-            <div class="gateway__gz gateway__gz-false"></div>
-            <!-- rails, truck, main rail-->
-            <div class="gateway__mini-rails-body gateway__mini-rails-body-true"></div>
-            <!-- canvas-->
-            <div class="gateway__canvas__true__top"></div>
-            <div class="gateway__canvas__true__bottom"></div>
-            <div class="gateway__truck gateway__truck__position-begin gateway__truck__position-ngz">
-              <div class="gateway__power gateway__power-true"></div>
-            </div>
-            <div class="gateway__mini-rail"></div>
-            <!-- / rails, truck, main rail-->
-          </div>
-          <!-- /canvas-->
-          <!-- background gateway--><img src="../img/gateway.png" alt="">
-        </div>
-        <!-- title zones-->
-        <ul class="title-zones">
-          <li>гермозона</li>
-          <li>шлюз</li>
-          <li>не гермозона</li>
-          <li>эстакада</li>
-        </ul>
-        <!-- block analogs-->
-        <div class="block block__mini-journal padding-10 main__position__bottom">
-          <div class="title-block">
-            <p>Последние события</p>
-          </div>
-          <div class="block__mini-journal__body">
-            <div class="block__mini-journal__body__messages">
-              <!-- field for message-->
-              <div class="block__mini-journal__body__messages__field">
-                <p class="left">	Параметры в норме</p><span class="right">	06.06.17</span>
-              </div>
-              <!-- field for message-->
-              <div class="block__mini-journal__body__messages__field color-alarm">
-                <p class="left">	Авария</p><span class="right">	06.06.17</span>
-              </div>
-              <!-- field for message-->
-              <div class="block__mini-journal__body__messages__field">
-                <p class="left">	Параметры в норме</p><span class="right">	06.06.17</span>
-              </div>
-              <!-- field for message-->
-              <div class="block__mini-journal__body__messages__field">
-                <p class="left">	Параметры в норме</p><span class="right">	06.06.17</span>
-              </div>
-              <!-- field for message-->
-              <div class="block__mini-journal__body__messages__field color-alarm">
-                <p class="left">	Авария</p><span class="right">	06.06.17</span>
-              </div>
-              <!-- field for message-->
-              <div class="block__mini-journal__body__messages__field">
-                <p class="left">	Параметры в норме</p><span class="right">	06.06.17</span>
-              </div>
-            </div><a class="btn block__mini-journal__body__btn btn-small pos-a" href="#" title="">	Сброс ошибок</a><a class="btn block__mini-journal__body__btn btn-small pos-a margin-left-140" href="./pages/journal.html" title="">	Журнал аварий</a>
-          </div>
-        </div>
-        <!-- block analogs-->
-        <div class="block block__indication-plc left main__position__bottom">
-          <div class="free-space-30"></div>
-          <div class="block__indication-plc__icon block__indication-plc__icon__true"></div>
-          <p>	Плк в норме</p>
-          <button class="btn bg-true test-socket">	ПАВТО вкл</button>
-          <button class="btn bg-true">	Выключение</button>
+        <!-- system clock-->
+        <div class="system-clock link__no-connect" style="float: right;text-align: left;">
+          <p> 04 сентября 2017г.</p>
+          <p> 14:25:43</p>
         </div>
       </div>
-      <!-- /column right-->
-      <div class="column__right">
-        <!--block 1-->
-        <div class="block">
-          <!--field 1-->
-          <div class="block__field">
-            <p> Ворота ГЗ</p>
-            <div class="status-message right"> Закрыты</div>
-          </div>
-          <!--field 2-->
-          <div class="block__field">
-            <p> Ворота НГЗ</p>
-            <div class="status-message right"> Закрыты</div>
-          </div>
-          <!--field 3-->
-          <div class="block__field">
-            <p> Ворота откатные</p>
-            <div class="status-message right"> Открыты</div>
-          </div>
-          <!--field 4-->
-          <div class="block__field">
-            <p> Тележка</p>
-            <div class="status-message right"> Стоит</div>
-          </div>
-          <!--field 5-->
-          <div class="block__field">
-            <p> КВД ГЗ</p>
-            <div class="status-message right"> Закрыт</div>
-          </div>
-          <!--field 6-->
-          <div class="block__field">
-            <p>КВД НГЗ</p>
-            <div class="status-message right"> Закрыт</div>
-          </div>
-        </div>
-        <!-- block analogs-->
-        <div class="block block__analogs">
-          <table>
-            <tr>
-              <td></td>
-              <td>
-                <p>Давление</p>
-              </td>
-              <td>
-                <p>Температура</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p class="text-left">ГЗ</p>
-              </td>
-              <td><span class="indication__analog color-true">150 Па</span></td>
-              <td><span class="indication__analog color-false">50 °C</span></td>
-            </tr>
-            <tr>
-              <td>
-                <p class="text-left">Шлюз</p>
-              </td>
-              <td><span class="indication__analog color-false">50 Па</span></td>
-              <td><span class="indication__analog color-true">50 °C</span></td>
-            </tr>
-            <tr>
-              <td>
-                <p class="text-left">НГЗ</p>
-              </td>
-              <td><span class="indication__analog color-false">50 Па</span></td>
-              <td><span class="indication__analog color-true">50 °C</span></td>
-            </tr>
-          </table>
-        </div>
-        <!-- block cabinets-->
-        <div class="block block__cabintes">
-          <table>
-            <tr>
-              <td></td>
-              <td>ШК1</td>
-              <td>
-                <p></p>ШК2
-              </td>
-              <td>
-                <p></p>ШК3
-              </td>
-              <td>
-                <p></p>ШК4        
-              </td>
-              <td>
-                <p></p>ШК5          
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p>Авар выкл.</p>
-              </td>
-              <td>
-                <div class="status-circle center status-circle__true">
-                  <div class="status-circle__indication"></div>
-                </div>
-              </td>
-              <td>
-                <div class="status-circle center status-circle__false">
-                  <div class="status-circle__indication"></div>
-                </div>
-              </td>
-              <td>
-                <div class="status-circle center status-circle__true">
-                  <div class="status-circle__indication"></div>
-                </div>
-              </td>
-              <td>
-                <div class="status-circle center status-circle__false">
-                  <div class="status-circle__indication"></div>
-                </div>
-              </td>
-              <td>
-                <div class="status-circle center status-circle__true">
-                  <div class="status-circle__indication">     </div>
-                </div>
-              </td>
-            </tr>
-          </table>
-        </div>
-        <!--block 1-->
-        <div class="block">
-          <!--field 1-->
-          <div class="block__field">
-            <p> Доступ в шлюз</p>
-            <div class="status-message right true color-true"> Разрешен</div>
-          </div>
-          <!--field 2-->
-          <div class="block__field">
-            <p> Режим работы СУ</p>
-            <div class="status-message right true"> Автомат</div>
-          </div>
-          <!--field 3-->
-          <div class="block__field">
-            <p> Режим рб. шлюза</p>
-            <div class="status-message right true"> Автомат</div>
+      <!-- test program-->
+      <div class="program">
+        <!-- cabinet-->
+        <div class="program__cabinet">
+          <!-- title cabinet-->
+          <div class="program__cabinet__title">ПУ 1</div>
+          <!-- indications from cabinet-->
+          <div class="program__cabinet__indications">
+            <div class="status-circle center status-circle__true left">
+              <div class="status-circle__indication"></div>
+            </div>
+            <div class="status-circle center status-circle__true left">
+              <div class="status-circle__indication"></div>
+            </div>
+            <div class="status-circle center status-circle__true left">
+              <div class="status-circle__indication"></div>
+            </div>
+            <div class="status-circle center status-circle__true left">
+              <div class="status-circle__indication"></div>
+            </div>
+            <div class="status-circle center status-circle__true left">
+              <div class="status-circle__indication"></div>
+            </div>
+            <div class="status-circle center status-circle__true left">
+              <div class="status-circle__indication"></div>
+            </div>
           </div>
         </div>
       </div>
@@ -298,22 +107,7 @@
     <!-- hide-->
     <div class="auth__denied">	Неверный пароль!</div>
   </div>
-  <div class="navigation"><a class="navigation__close" href="#" title=""></a>
-    <h2>	Навигация</h2>
-    <ul>
-      <li><a href="/" title="">Главный экран</a></li>
-      <li><a href="/pages/journal.html" title="">Журнал событий	</a></li>
-      <li><a href="/pages/debug.html" title="">Отладка</a></li>
-      <li><a href="/pages/designations.html" title="">Обозначения</a></li>
-    </ul>
-    <hr>
-    <ul>
-      <li>
-        <p class="navigation__status-auth">	Вы зашли как Администратор /</p>
-        <button class="navigation__status-auth__exit">Выйти</button>
-      </li>
-    </ul>
-  </div>
+  <!--include ../blocks/block-navigation/navigation.pug-->
   <script src="../js/jquery-3.2.1.min.js"></script>
   <script src="../js/jquery.bpopup.min.js"></script>
   <script src="../js/scripts.js"></script>

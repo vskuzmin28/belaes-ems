@@ -17,26 +17,46 @@ html(lang='ru')
     // conteiner
     .conteiner
 
-      // column left
-      .column__left
-        include ../blocks/block-header/header.pug
-        include ../blocks/block-current-operation/current-operation.pug
-        include ../blocks/block-gateway/gateway.pug
-        include ../blocks/block-title-zones/title-zones.pug
-        include ../blocks/block-mini-journal/mini-journal.pug
-        include ../blocks/block-indication-plc/indication-plc.pug
+      include ../blocks/block-header/header.pug
 
+      // test program
 
-      // /column right
-      .column__right
-        include ../blocks/block-indications/indications.pug
-        include ../blocks/block-analogs/analogs.pug
-        include ../blocks/block-cabinets/cabinets.pug
-        include ../blocks/block-indications-last/indications-last.pug
+      .program
+
+        // cabinet
+
+        .program__cabinet
+
+          // title cabinet
+
+          .program__cabinet__title
+            | ПУ 1
+
+          // indications from cabinet
+
+          .program__cabinet__indications
+
+            .status-circle.center.status-circle__true.left
+              .status-circle__indication
+
+            .status-circle.center.status-circle__true.left
+              .status-circle__indication
+
+            .status-circle.center.status-circle__true.left
+              .status-circle__indication
+
+            .status-circle.center.status-circle__true.left
+              .status-circle__indication
+
+            .status-circle.center.status-circle__true.left
+              .status-circle__indication
+
+            .status-circle.center.status-circle__true.left
+              .status-circle__indication
 
   include ../blocks/block-local-connection-error/local-connection-error.pug
   include ../blocks/block-no-connection/no-connection.pug      
   include ../blocks/block-auth/auth.pug
-  include ../blocks/block-navigation/navigation.pug
+  //include ../blocks/block-navigation/navigation.pug
   include ../blocks/block-scripts/scripts.pug
 
