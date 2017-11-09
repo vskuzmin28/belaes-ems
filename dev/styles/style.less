@@ -7,10 +7,8 @@
 
 	@import '../blocks/block-header/header.less';
 
-	@import '../blocks/block-auth/auth.less';
 	@import '../blocks/block-no-connection/no-connection.less';
 	@import '../blocks/block-local-connection-error/local-connection-error.less';
-	@import '../blocks/block-keypad/keypad.less';
 
 }
 
@@ -31,7 +29,8 @@ a, a:hover, li, img, input, textarea {
 body {
 	-webkit-user-select: none; // cancel allotment
 	cursor: default;
-	background: @blue-dark;
+	//background: @blue-dark;
+	background: #000;
 }
 
 
@@ -79,6 +78,7 @@ button {
 		height: 736px;
 		padding: 16px;
 		overflow: hidden;
+		background: @blue-dark;
 	}
 
 	// column left
@@ -233,7 +233,7 @@ button {
 		background: @blue-light;
 
 		.status-circle__indication {
-			background: @red;
+			background: @green;
 			border: 3px solid @blue-dark;
 		}
 
@@ -344,6 +344,12 @@ button {
 
 	}
 
+	.w-160 {
+		float: left !important;
+		width: 50px !important;
+		line-height: 32px !important;
+	}
+
 	.btn-grey-small {
 		height: 24px;
 		font: 12px @pt-bold;
@@ -369,36 +375,36 @@ button {
 	// /buttons
 
 	::-webkit-scrollbar{
-    	width:6px;
+		width:6px;
 
 	}
 
 	::-webkit-scrollbar-thumb{
 		cursor: pointer !important;
-    	border-width:0;
-    	border-color: #777;
-    	background-color: @blue-light;
-    	border-radius: 4px;
+		border-width:0;
+		border-color: #777;
+		background-color: @blue-light;
+		border-radius: 4px;
 	}
 
 	::-webkit-scrollbar-thumb:hover{
-    	border-width: 1px 1px 1px 2px;
-    	border-color: #555;
-    	background-color: @blue-light;
-    	border-radius: 4px;
+		border-width: 1px 1px 1px 2px;
+		border-color: #555;
+		background-color: @blue-light;
+		border-radius: 4px;
 	}
 
 	::-webkit-scrollbar-track{
-    	border-width:0;
-    	height: 50px !important;
-    	border-radius: 4px;
-    	background-color: @blue;
+		border-width:0;
+		height: 50px !important;
+		border-radius: 4px;
+		background-color: @blue;
 	}
 
 	::-webkit-scrollbar-track:hover{
-    	border-left: 0;
-    	background-color: @blue;
-    	border-radius: 4px;
+		border-left: 0;
+		background-color: @blue;
+		border-radius: 4px;
 	}
 
 	// bottom position aboslute
@@ -437,11 +443,20 @@ button {
 	}
 
 	.w-290 {
-		width: 250px;
+		width: 212px;
 	}
 
 	.w-150 {
 		width: 130px;
+	}
+
+	.no-border {
+		border: 0 !important;
+	}
+
+	.w-300 {
+		width: 520px;
+		height: 74px !important;
 	}
 
 	.mt-20 {
@@ -473,6 +488,10 @@ button {
 
 	.pt-140 {
 		padding-top: 140px;
+	}
+
+	.ml-20 {
+		margin-left: 20px;
 	}
 
 	.no-margin-right {
@@ -528,7 +547,7 @@ button {
 	}
 
 	.program__cabinet {
-		margin-top: 20px;
+		margin-top: 26px;
 		padding: 10px;
 		height: auto;
 		position: relative;
@@ -538,7 +557,7 @@ button {
 	.program__cabinet__title {
 		top: -17px;
 		position: absolute;
-		width: 8%;
+		width: 80px;
 		height: 34px;
 		background: @blue-dark;
 		font: 16px @pt-bold;
@@ -549,15 +568,105 @@ button {
 	}
 
 	.program__cabinet__indications {
-		margin: 0 10px;
-		margin-top: 20px;
-		margin-bottom: 10px;
+		margin: 0 0 0 10px;
+		margin-top: 10px;
+		margin-bottom: 0px;
 		height: auto;
 		overflow: hidden;
+
+		&:nth-child(3) {
+			margin-top: 4px;
+		}
+
 	}
 
-	.program__cabinet__indications__title {
-		
+	.program__cabinet__indications__name-signal {
+		margin-bottom: 10px;
+		font: 16px @pt-regular;
+		color: @white;
+
+		&:last-child {
+			margin-right: 0 !important;
+		}
+
+	}
+
+	.program__cabinet__ind {
+		padding: 8px 10px 10px 10px;
+	}
+
+	.program__cabinet__indications__name-indication {
+		margin-bottom: 10px;
+		font: 16px @pt-regular;
+		color: @white;
+		line-height: 12px;
+
+		span {
+			font-size: 16px;
+			font-weight: bold;
+			//text-decoration: underline;
+		}
+
+		&:last-child {
+			margin-right: 0 !important;
+		}
+
+	}
+
+	.program__cabinet__indications__signal {
+		margin-bottom: 8px;
+	}
+
+	.no-padding {
+		padding: 0 !important;
+		margin: 0;
+	}
+
+	.cols-for-buttons {
+		margin: 0;
+		padding: 0 !important;
+		margin: 26px 0 0 20px;
+		width: 170px !important;
+		//background: #f00;
+	}
+
+	.btn__start {
+		margin: 0 !important;
+		padding: 0 !important;
+		width: 168px !important;
+		height: 35px;
+		line-height: 35px !important;
+	}
+
+	.btn__start__true, .btn__reset__true {
+		background: @green !important;
+		border-color: @green;
+
+		&:hover, &:focus {
+			background: @green !important;
+			border-color: @green !important;
+		}
+
+	}
+
+	.btn__reset {
+		margin: 0 !important;
+		padding: 0 !important;
+		margin-top: 20px !important;
+		width: 168px !important;
+		height: 35px;
+		line-height: 35px !important;
+	}
+
+	.btn__start__false, .btn__reset__false {
+		background: @blue-dark !important;
+		border-color: @blue-light;
+
+		&:hover, &:focus {
+			background: @blue-dark !important;
+			border-color: @blue-light !important;
+		}
+
 	}
 
 }
