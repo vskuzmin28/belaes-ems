@@ -309,7 +309,7 @@ button {
     border: 0 !important;
   }
   .w-300 {
-    width: 520px;
+    width: 600px;
     height: 74px !important;
   }
   .mt-20 {
@@ -434,7 +434,7 @@ button {
   .cols-for-buttons {
     margin: 0;
     padding: 0 !important;
-    margin: 26px 0 0 20px;
+    margin: 6px 0 0 20px;
     width: 170px !important;
   }
   .btn__start {
@@ -459,7 +459,7 @@ button {
   .btn__reset {
     margin: 0 !important;
     padding: 0 !important;
-    margin-top: 20px !important;
+    margin-top: 32px !important;
     width: 168px !important;
     height: 35px;
     line-height: 35px !important;
@@ -475,6 +475,10 @@ button {
   .btn__reset__false:focus {
     background: #1f253d !important;
     border-color: #50597b !important;
+  }
+  .program__cabinet {
+    padding-top: 20px !important;
+    zoom: 0.93;
   }
 }
 @media only screen and (min-width: 1124px) {
@@ -502,6 +506,54 @@ button {
   text-align: left !important;
   vertical-align: middle;
   height: 20px;
+}
+.header {
+  padding: 10px;
+  margin: 0 0 0 0px;
+  margin-bottom: 20px;
+  height: 38px;
+  overflow: hidden;
+}
+.header__logo {
+  margin-top: 4px;
+  display: block;
+  float: left;
+}
+.header__logo img {
+  width: 126px;
+  height: 26px;
+}
+.header__border__right {
+  display: block;
+  margin: 0 14px;
+  margin-top: 3px;
+  float: left;
+  width: 1px;
+  height: 32px;
+  background: #50597b;
+}
+.header__about-screen {
+  margin-top: 6px;
+  margin-left: 0px;
+  height: auto;
+  text-align: left;
+  float: left;
+}
+.header__about-screen p {
+  margin-top: -5px;
+  margin-bottom: 0;
+  font: 14px 'pt_sansregular';
+  color: #fff;
+  line-height: 21px;
+}
+.icon__menu {
+  margin-top: 9px;
+  margin-right: 3px;
+  float: right;
+  cursor: pointer;
+  width: 92px;
+  height: 26px;
+  background: url('../img/icon-menu.png') no-repeat right;
 }
 .local-connection-error {
   border-radius: 30%;
@@ -573,54 +625,6 @@ button {
 .local-connection-error__message p {
   font: 16px 'pt_sansregular';
   color: #fff;
-}
-.header {
-  padding: 10px;
-  margin: 0 0 0 0px;
-  margin-bottom: 20px;
-  height: 38px;
-  overflow: hidden;
-}
-.header__logo {
-  margin-top: 4px;
-  display: block;
-  float: left;
-}
-.header__logo img {
-  width: 126px;
-  height: 26px;
-}
-.header__border__right {
-  display: block;
-  margin: 0 14px;
-  margin-top: 3px;
-  float: left;
-  width: 1px;
-  height: 32px;
-  background: #50597b;
-}
-.header__about-screen {
-  margin-top: 6px;
-  margin-left: 0px;
-  height: auto;
-  text-align: left;
-  float: left;
-}
-.header__about-screen p {
-  margin-top: -5px;
-  margin-bottom: 0;
-  font: 14px 'pt_sansregular';
-  color: #fff;
-  line-height: 21px;
-}
-.icon__menu {
-  margin-top: 9px;
-  margin-right: 3px;
-  float: right;
-  cursor: pointer;
-  width: 92px;
-  height: 26px;
-  background: url('../img/icon-menu.png') no-repeat right;
 }
 .no-connection {
   border-radius: 30%;
